@@ -67,3 +67,7 @@ chargeModalForm.addEventListener('submit', (e) => {
     e.preventDefault();
     showNextModal(chargeModal, chargeModalStep2);
 })
+
+document.querySelectorAll('nav .charge-account-btn').forEach(btn => {
+    btn.addEventListener('click', () => openOrCloseNav('false'))
+})
