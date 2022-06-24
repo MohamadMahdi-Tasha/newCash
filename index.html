@@ -22,6 +22,10 @@
     <title>اپلیکیشن نیوکاش | newCash App</title>
 </head>
 <body translate="no" dir="rtl">
+<!--Dark Bg Of Modal-->
+<div class="fixed-top w-100 h-100 bg-dark z-index-1001 pointer-event-none opacity-0 transition" id="modal-bg"></div>
+<!--Modal Holder-->
+<div class="z-index-1002 fixed-top d-flex jc-center ai-center p-4 pointer-event-none" id="modal-holder"></div>
 <!--Mobile Dark Bg-->
 <div class="fixed-top z-index-1001 w-100 h-100 bg-dark mobile-dark-bg transition d-none mq-900-d-block" data-opened="false" id="mobile-dark-bg"></div>
 <!--Mobile Nav-->
@@ -491,5 +495,6 @@
 <script src="assets/base/js/swipers.js"></script>
 <script src="assets/base/js/faq-items.js"></script>
 <script src="assets/base/js/mobile-nav.js"></script>
+<script src="assets/base/js/modal.js"></script>
 </body>
 </html>

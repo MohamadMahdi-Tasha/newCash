@@ -138,6 +138,7 @@ a {text-decoration: none;}
 .third-section.background-lines {background-image: url("../img/third-section/img-bg.png");}
 .mb-1 {margin-bottom: 1rem;}
 .ov-scroll {overflow: scroll;}
+.scroll-hidden::-webkit-scrollbar {display:none;}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px !important;
