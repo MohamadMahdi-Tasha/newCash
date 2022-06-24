@@ -4,7 +4,11 @@
 /*Variables*/
 :root {
     --green: #77C043;
+    --green-dark: #6bac3d;
+    --green-darker: #598e33;
     --orange: #F58220;
+    --orange-dark: #dc751d;
+    --orange-darker: #c3681b;
     --green-rgba: 119, 192, 67;
     --orange-rgba: 245, 130, 32;
     --gray: #D9D9D9;
@@ -100,3 +104,7 @@ a {text-decoration: none;}
 .hover-text-orange:hover {color: var(--orange);}
 .hover-bg-green:hover {background-color: var(--green);}
 .hover-text-white:hover {color: white;}
+button.bg-orange:hover {background-color: var(--orange-dark);}
+button.bg-orange:active {background-color: var(--orange-darker);}
+button.bg-green:hover {background-color: var(--green-dark);}
+button.bg-green:active {background-color: var(--green-darker);}
