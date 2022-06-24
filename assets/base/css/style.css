@@ -125,6 +125,7 @@ a {text-decoration: none;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
 .bg-darker-gray {background-color: var(--gray-darker);}
 .rounded-dot-5 {border-radius: .5rem;}
+.text-right {text-align:right;}
 
 /*Hover And Active*/
 .hover-bb-orange:hover {border-bottom-color: var(--orange);}
@@ -177,6 +178,8 @@ button.bg-green:active {background-color: var(--green-darker);}
 @media (max-width: 372px) {
     .mq-372-fs-5 {font-size: 5rem;}
     .mq-372-fs-3 {font-size: 3rem;}
+    .mq-372-fs-1dot25 {font-size: 1.25rem;}
     .mq-372-gtc-1 {grid-template-columns: repeat(1, 1fr);}
     .mq-372-gcol-auto {grid-column: auto;}
+
 }
