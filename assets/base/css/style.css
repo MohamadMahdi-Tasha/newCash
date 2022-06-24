@@ -139,6 +139,10 @@ a {text-decoration: none;}
 .mb-1 {margin-bottom: 1rem;}
 .ov-scroll {overflow: scroll;}
 .scroll-hidden::-webkit-scrollbar {display:none;}
+.mobile-nav li.active > a > button {background-color: var(--green);color: white;}
+.header > ul > li.active > a{color: var(--orange);border-bottom-color: var(--orange);}
+.w-3 {width: 3%;}
+.border {border: 1px solid black;}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px !important;
