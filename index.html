@@ -34,7 +34,7 @@
     <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal">
         <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
         <h1>شارژ حساب نیوکالا</h1>
-        <form action="#" class="d-flex flex-d-c">
+        <form id="charge-modal-form" action="#" class="d-flex flex-d-c">
             <label class="text-darker-gray mb-dot-5" for="phone-number">شماره تماس برای شارژ حساب</label>
             <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
             <label class="text-darker-gray mb-dot-5" for="price-number">مبلغ به تومان</label>
@@ -50,7 +50,7 @@
     <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-step2">
         <div class="d-inline-flex ai-start jc-sb w-100">
             <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
-            <button class="aspect-ratio w-7 circle bg-none border-0 modal-go-back-btn">
+            <button class="aspect-ratio w-7 circle bg-none border-0" id="modal-go-back-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                 </svg>
@@ -72,8 +72,8 @@
             </li>
         </ul>
         <div class="d-inline-flex w-100 gap-3">
-            <button class="w-50 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
-            <button class="w-50 bg-orange transition border-0 p-1 shadow-orange rounded-pill text-white ff-yekan fs-1dot5 deni-btn">انصراف</button>
+            <button class="w-50 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5" id="charge-modal-step2-submit-btn">تاکید</button>
+            <button class="w-50 bg-orange transition border-0 p-1 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn">انصراف</button>
         </div>
     </div>
     <!--Charge Successful-->
@@ -106,7 +106,7 @@
             </li>
         </ul>
         <div class="d-inline-flex w-100 gap-3">
-            <button class="bg-green w-90 transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
+            <button id="charge-successful-accept-btn" class="bg-green w-90 transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
             <button class="transition aspect-ratio bg-green border-0 p-1 shadow-green circle text-white modal-share-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
