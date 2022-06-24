@@ -120,7 +120,7 @@ a {text-decoration: none;}
 .fs-2 {font-size: 2rem;}
 .text-white {color: white !important;}
 .bl-white {border-left: 1px solid white;}
-.text-darker-gray {color: var(--gray-darker);}
+.text-darker-gray {color: #6D6E71;}
 .ta-right {text-align: right;}
 .ff-yekan {font-family: Yekan, sans-serif;}
 .fs-1dot5 {font-size: 1.5rem}
@@ -143,6 +143,17 @@ a {text-decoration: none;}
 .header > ul > li.active > a{color: var(--orange);border-bottom-color: var(--orange);}
 .w-3 {width: 3%;}
 .border {border: 1px solid black;}
+.mb-2 {margin-bottom: 2rem;}
+.mb-dot-5 {margin-bottom: .5rem;}
+.modal-forms-checkbox {accent-color: var(--green);}
+
+.modal-forms-input {
+    background-color: var(--gray);
+    border: 1px solid var(--gray-darker);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px !important;
@@ -154,6 +165,8 @@ a {text-decoration: none;}
 .hover-text-orange:hover {color: var(--orange);}
 .hover-bg-green:hover {background-color: var(--green);}
 .hover-text-white:hover {color: white;}
+.hover-bg-darker-orange:hover {background-color: var(--orange-dark);}
+.hover-bg-darker-orange:active {background-color: var(--orange-darker);}
 button.bg-orange:hover {background-color: var(--orange-dark);}
 button.bg-orange:active {background-color: var(--orange-darker);}
 button.bg-green:hover {background-color: var(--green-dark);}
