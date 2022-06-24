@@ -123,6 +123,7 @@ a {text-decoration: none;}
 .ov-hidden {overflow: hidden;}
 .jc-sa {justify-content: space-around;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
+.bg-darker-gray {background-color: var(--gray-darker);}
 
 /*Hover And Active*/
 .hover-bb-orange:hover {border-bottom-color: var(--orange);}
