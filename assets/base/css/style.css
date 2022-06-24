@@ -149,6 +149,10 @@ a {text-decoration: none;}
 .modal-forms-input::placeholder {color: #c2c2c2;}
 .ai-start {align-items: start;}
 .w-7 {width: 7%;}
+.w-90 {width: 90%;}
+#charge-modal-successful {
+    background-image: url("../img/modal/img-succsesful-bg.png");
+}
 
 .modal-forms-input {
     background-color: var(--gray);

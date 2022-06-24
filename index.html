@@ -47,7 +47,7 @@
         </form>
     </div>
     <!--Charge Modal step 2-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden z-index-1002 pointer-event-visible" id="charge-modal-step2">
+    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-step2">
         <div class="d-inline-flex ai-start jc-sb w-100">
             <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
             <button class="aspect-ratio w-7 circle bg-none border-0 modal-go-back-btn">
@@ -59,21 +59,59 @@
         <h1 class="mb-2">شارژ حساب نیوکالا</h1>
         <ul class="mb-2">
             <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                <span>شماره کارت</span>
+                شماره کارت
                 <span>6037 0102 0304 0506</span>
             </li>
             <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                <span>صاحب کارت</span>
+                صاحب کارت
                 <span>علی احمد سالم</span>
             </li>
             <li class="w-100 d-inline-flex ai-center jc-sb">
-                <span>مبلغ به تومان</span>
+                مبلغ به تومان
                 <span>1.000.000</span>
             </li>
         </ul>
         <div class="d-inline-flex w-100 gap-3">
             <button class="w-50 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
             <button class="w-50 bg-orange transition border-0 p-1 shadow-orange rounded-pill text-white ff-yekan fs-1dot5 deni-btn">انصراف</button>
+        </div>
+    </div>
+    <!--Charge Successful-->
+    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden z-index-1002 pointer-event-visible bg-centred-cover" id="charge-modal-successful">
+        <div class="d-flex flex-d-c ai-center jc-center w-100">
+            <img src="assets/base/img/modal/img-happy-face.png" alt="موفیقت امیز" class="mb-1">
+            <h1>شارژ حساب نیوکاش</h1>
+            <h2 class="text-green">شارژ حساب با موفقیت انجام شد!</h2>
+        </div>
+        <ul class="mb-2">
+            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
+                مبلغ
+                <span>1.000.000</span>
+            </li>
+            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
+                صاحب کارت
+                <span>علی احمد سالم</span>
+            </li>
+            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
+                کارمزد
+                <span>10.000</span>
+            </li>
+            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
+                تاریخ
+                <span>1400/02/11</span>
+            </li>
+            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
+                شماره پیگیری
+                <span>2514369870</span>
+            </li>
+        </ul>
+        <div class="d-inline-flex w-100 gap-3">
+            <button class="w-90 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
+            <button class="w-10 transition aspect-ratio bg-green border-0 p-1 shadow-green circle text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                </svg>
+            </button>
         </div>
     </div>
 </div>
