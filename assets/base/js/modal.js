@@ -19,7 +19,7 @@ function newModal(content) {
 
     // Adding Class Names To Elements
     closeBtn.className = "mb-1 p-1 aspect-ratio circle w-10 border-green bg-none hover-bg-green hover-text-white text-green transition";
-    modal.className = 'modal bg-white w-50 p-3 rounded shadow transition';
+    modal.className = 'modal bg-white w-50 p-3 rounded shadow transition mq-900-w-100 mq-900-p-1';
 
     // Adding Close Icon Into Close Button
     closeBtn.innerHTML = closeIcon;

@@ -157,7 +157,7 @@ button.bg-green:active {background-color: var(--green-darker);}
 /*Media Querys*/
 @media (max-width: 900px) {
     .bg-centred {background-size: cover;}
-    section:not(:nth-of-type(2)), header, footer, .second-section-green-side {padding: 1rem !important;}
+    section:not(:nth-of-type(2)), header, footer, .second-section-green-side, #modal-holder {padding: 1rem !important;}
     .first-section-swiper > .swiper-pagination {transform: none !important;}
     .support-btn {width: 50px;}
     .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
