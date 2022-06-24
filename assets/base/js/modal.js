@@ -2,7 +2,7 @@
 const modalBg = document.getElementById('modal-bg');
 const firstSectionLeftVideos = document.querySelectorAll('.first-section-left-videos');
 const videoModal = document.getElementById('video-modal');
-const chargeAccountBtn = document.getElementById('charge-account-btn');
+const chargeAccountBtn = document.querySelectorAll('.charge-account-btn');
 const chargeModal = document.getElementById('charge-modal');
 
 // A Function That Takes Modal As An Argument And Removes It And Removes Dark Bg Of It.
@@ -16,6 +16,7 @@ function closeModal(modal) {
 function showModal(modal) {
     // Adding To Opacity Of Modal And Make It Intractable
     modal.classList.remove('d-none');
+    modal.classList.replace('pointer-event-none','pointer-event-visible');
 
     // Adding Event Listener On Modal Bg That Listens To Click And Calls 'closeModal' Function On Modal
     modalBg.onclick = () => closeModal(modal);
@@ -27,4 +28,4 @@ function showModal(modal) {
 
 // Adding Event Listener On First Sections Left side Videos That Listens To Click And Shows A Modal That Plays Video.
 firstSectionLeftVideos.forEach(video => video.addEventListener('click', () => showModal(videoModal)))
-chargeAccountBtn.addEventListener('click', () => showModal(chargeModal))
+chargeAccountBtn.forEach(btn => btn.addEventListener('click', () => showModal(chargeModal)));

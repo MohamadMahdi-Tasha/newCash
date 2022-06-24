@@ -23,24 +23,24 @@
 </head>
 <body translate="no" dir="rtl">
 <!--Dark Bg Of Modal-->
-<div class="fixed-top w-100 h-100 bg-dark z-index-1001 opacity-0 pointer-event-none transition" id="modal-bg"></div>
+<div class="fixed-top w-100 h-100 bg-dark z-index-1000 opacity-0 pointer-event-none transition" id="modal-bg"></div>
 <!--Modal Holder-->
 <div class="z-index-1002 fixed-top d-flex jc-center ai-center p-4 pointer-event-none mq-900-p-1">
     <!--Video Modal-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none" id="video-modal">
+    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="video-modal">
         <div class="w-100 bg-orange rounded" style="height: 50vh;"></div>
     </div>
     <!--Charge Modal-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none" id="charge-modal">
+    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal">
         <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
         <h1>شارژ حساب نیوکالا</h1>
         <form action="#" class="d-flex flex-d-c">
             <label class="text-darker-gray mb-dot-5" for="phone-number">شماره تماس برای شارژ حساب</label>
-            <input dir="ltr" class="modal-forms-input mb-2 p-1 ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
+            <input required dir="ltr" class="modal-forms-input mb-2 p-1 ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
             <label class="text-darker-gray mb-dot-5" for="price-number">مبلغ به تومان</label>
-            <input dir="ltr" class="modal-forms-input mb-2 p-1 ff-yekan" type="number" id="price-number" placeholder="1.000.000 تومان">
+            <input required dir="ltr" class="modal-forms-input mb-2 p-1 ff-yekan" type="number" min="1000" max="1000000" id="price-number" placeholder="1.000.000 تومان">
             <div class="d-inline-flex ai-center mb-2">
-                <input type="checkbox" id="im-not-robot" class="ml-1 modal-forms-checkbox" checked>
+                <input required type="checkbox" id="im-not-robot" class="ml-1 modal-forms-checkbox">
                 <label class="text-darker-gray" for="im-not-robot">من ربات نیستم</label>
             </div>
             <button class="bg-orange border-0 rounded text-white p-1 ff-yekan fs-2 w-100 shadow-orange hover-bg-dark-orange" type="submit">ادامه</button>
@@ -56,7 +56,7 @@
         <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">نماینده ها</button></a></li>
         <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="faq.html"><button class="bg-none border-green text-green text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
         <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">درباره ما</button></a></li>
-        <li class="w-100"><button class="bg-none border-green text-green text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">شارژ حساب</button></li>
+        <li class="w-100"><button class="bg-none border-green text-green text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1 charge-account-btn">شارژ حساب</button></li>
     </ul>
 </nav>
 <!--Support Btn Holder-->
@@ -77,7 +77,7 @@
             <li class="mq-900-d-none"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">نماینده ها</a></li>
             <li class="mq-900-d-none"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="faq.html">سوالات متداول</a></li>
             <li class="mq-900-d-none"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">درباره ما</a></li>
-            <li class="w-10 mq-900-d-none"><button id="charge-account-btn" class="bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition p-1">شارژ حساب</button></li>
+            <li class="w-10 mq-900-d-none"><button class="charge-account-btn bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition p-1">شارژ حساب</button></li>
             <li class="d-none mq-900-d-block">
                 <button id="mobile-nav-toggler" class="bg-none aspect-ratio d-flex jc-center ai-center border-green text-green ff-yekan hover-bg-green hover-text-white w-100 transition p-1 rounded-dot-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
