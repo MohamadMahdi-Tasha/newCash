@@ -124,6 +124,7 @@ a {text-decoration: none;}
 .bg-darker-gray {background-color: var(--gray-darker);}
 .rounded-dot-5 {border-radius: .5rem;}
 .text-right {text-align:right;}
+.third-section.background-lines {background-image: url("../img/third-section/img-bg.png");}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px !important;
