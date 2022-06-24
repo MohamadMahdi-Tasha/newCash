@@ -12,6 +12,7 @@
     --green-rgba: 119, 192, 67;
     --orange-rgba: 245, 130, 32;
     --gray: #ECECEC;
+    --gray-darker: #a9a9a9;
 }
 
 /*Css Reset*/
@@ -90,7 +91,7 @@ a {text-decoration: none;}
 .first-section-swiper {height: 70vh;}
 .first-section-swiper > .swiper-pagination {transform: translateX(3vw) translateY(20vh) !important;}
 .first-section-swiper > .swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {background-color: var(--green) !important;}
-.first-section-swiper > .swiper-button-next, .swiper-button-prev {color: var(--gray) !important;}
+.first-section-swiper > .swiper-button-next, .first-section-swiper > .swiper-button-prev {color: var(--gray) !important;}
 .bb-transparent {border-bottom: 1px solid transparent;}
 .pointer-event-none {pointer-events: none;}
 .pointer-event-visible {pointer-events: visible;}
@@ -107,8 +108,11 @@ a {text-decoration: none;}
 .rounded {border-radius: 2rem;}
 .text-center {text-align: center;}
 .fs-2 {font-size: 2rem;}
-.text-white {color: white;}
+.text-white {color: white !important;}
 .bl-white {border-left: 1px solid white;}
+.text-darker-gray {color: var(--gray-darker);}
+.third-sections-swiper > .swiper-button-next,
+.third-sections-swiper > .swiper-button-prev {top: 45% !important;}
 
 /*Hover And Active*/
 .hover-bb-orange:hover {border-bottom-color: var(--orange);}

@@ -10,3 +10,12 @@ const firstSectionsSwiperVertical = new Swiper(".first-section-swiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// Swiper Of Third Section
+const thirdSectionsSwiper = new Swiper(".third-sections-swiper", {
+    slidesPerView: 3,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
