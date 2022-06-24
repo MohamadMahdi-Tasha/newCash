@@ -68,6 +68,6 @@ chargeModalForm.addEventListener('submit', (e) => {
     showNextModal(chargeModal, chargeModalStep2);
 })
 
-document.querySelectorAll('nav .charge-account-btn').forEach(btn => {
-    btn.addEventListener('click', () => openOrCloseNav('false'))
-})
+// Selecting All charge-account-btns That Are Inside Mobile Nav And Adding Event Listener Of Click On Them And
+// Closing Nav By Clicking On It.
+document.querySelectorAll('.mobile-nav .charge-account-btn').forEach(btn => btn.addEventListener('click', () => openOrCloseNav('false')))
