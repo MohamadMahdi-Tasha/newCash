@@ -146,6 +146,7 @@ a {text-decoration: none;}
 .mb-2 {margin-bottom: 2rem;}
 .mb-dot-5 {margin-bottom: .5rem;}
 .modal-forms-checkbox {accent-color: var(--green);}
+.modal-forms-input::placeholder {color: #c2c2c2;}
 
 .modal-forms-input {
     background-color: var(--gray);
@@ -171,6 +172,7 @@ button.bg-orange:hover {background-color: var(--orange-dark);}
 button.bg-orange:active {background-color: var(--orange-darker);}
 button.bg-green:hover {background-color: var(--green-dark);}
 button.bg-green:active {background-color: var(--green-darker);}
+.modal-forms-input:focus {border-color: var(--green);box-shadow: 0 0 30px rgba(var(--green-rgba), .2) !important;}
 
 /*Media Querys*/
 @media (max-width: 900px) {
