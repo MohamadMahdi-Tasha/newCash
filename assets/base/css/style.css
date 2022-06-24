@@ -153,6 +153,7 @@ a {text-decoration: none;}
 #charge-modal-successful {background-image: url("../img/modal/img-succsesful-bg.png");}
 .modal-share-btn  {width: 4vw;height: 4vw;}
 .border-orange {border: 1px solid var(--orange);}
+.modal {height: 80vh;}
 
 .modal-forms-input {
     background-color: var(--gray);
