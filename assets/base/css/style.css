@@ -118,6 +118,8 @@ a {text-decoration: none;}
 .fs-1dot5 {font-size: 1.5rem}
 .faq-item[data-opened='true'] > .faq-content{display: block;}
 .faq-item[data-opened='false'] > .faq-content{display: none;}
+.faq-item[data-opened='true'] > .faq-item-toggler > span:last-of-type {transform: rotate(45deg);}
+.ov-hidden {overflow: hidden;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
 
 /*Hover And Active*/
