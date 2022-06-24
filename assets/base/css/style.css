@@ -86,9 +86,10 @@ a {text-decoration: none;}
 .first-section-swiper > .swiper-pagination {transform: translateX(3vw) translateY(20vh) !important;}
 .first-section-swiper > .swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {background-color: var(--green) !important;}
 .first-section-swiper > .swiper-button-next, .swiper-button-prev {color: var(--gray) !important;}
+.bb-transparent {border-bottom: 1px solid transparent;}
 
 /*Hover And Active*/
-.hover-td-underline:hover {text-decoration: underline;}
+.hover-bb-orange:hover {border-bottom-color: var(--orange);}
 .hover-text-orange:hover {color: var(--orange);}
 .hover-bg-green:hover {background-color: var(--green);}
 .hover-text-white:hover {color: white;}
