@@ -76,7 +76,7 @@ a {text-decoration: none;}
 .ml-3 {margin-left: 3rem;}
 .shadow-orange {box-shadow: 0 0 30px rgba(var(--orange-rgba ,.4));}
 .shadow-green {box-shadow: 0 0 30px rgba(var(--green-rgba ,.4));}
-.first-section {background-image: url("../img/first-section/img-bg.png");}
+.background-lines {background-image: url("../img/first-section/img-bg.png");}
 .bg-centred {background-size: contain;background-position: center;background-repeat: no-repeat;}
 .abs-top {position: absolute;inset: 0;}
 .fixed-top{position: fixed;inset: 0;z-index: 1000;}
@@ -116,10 +116,12 @@ a {text-decoration: none;}
 .ta-right {text-align: right;}
 .ff-yekan {font-family: Yekan, sans-serif;}
 .fs-1dot5 {font-size: 1.5rem}
+.mb-5 {margin-bottom: 5rem;}
 .faq-item[data-opened='true'] > .faq-content{display: block;}
 .faq-item[data-opened='false'] > .faq-content{display: none;}
 .faq-item[data-opened='true'] > .faq-item-toggler > span:last-of-type {transform: rotate(45deg);}
 .ov-hidden {overflow: hidden;}
+.jc-sa {justify-content: space-around;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
 
 /*Hover And Active*/
