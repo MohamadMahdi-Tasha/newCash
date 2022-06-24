@@ -22,6 +22,18 @@
     <title>اپلیکیشن نیوکاش | newCash App</title>
 </head>
 <body translate="no" dir="rtl">
+<!--Mobile Dark Bg-->
+<div class="fixed-top z-index-1001 w-100 h-100 bg-dark mobile-dark-bg pointer-event-none transition d-none mq-900-d-block" data-opened="false" id="mobile-dark-bg"></div>
+<!--Mobile Nav-->
+<nav class="fixed-top w-75 h-100 z-index-1002 bg-orange shadow mobile-nav transition d-none mq-900-d-block" data-opened="false" id="mobile-nav">
+    <ul class="w-100">
+        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">خدمات</button></a></li>
+        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">نماینده ها</button></a></li>
+        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
+        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">درباره ما</button></a></li>
+        <li class="w-100"><button class="bg-none border-green text-green text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">شارژ حساب</button></li>
+    </ul>
+</nav>
 <!--Support Btn Holder-->
 <div class="fixed-top d-flex ai-end p-2 jc-end pointer-event-none mq-900-p-1">
     <button class="aspect-ratio support-btn pointer-event-visible circle border-0 bg-orange shadow transition p-1">
@@ -42,7 +54,7 @@
             <li class="mq-900-d-none"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">درباره ما</a></li>
             <li class="w-10 mq-900-d-none"><button class="bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition p-1">شارژ حساب</button></li>
             <li class="d-none mq-900-d-block">
-                <button class="bg-none aspect-ratio d-flex jc-center ai-center border-green text-green ff-yekan hover-bg-green hover-text-white w-100 transition p-1 rounded-dot-5">
+                <button id="mobile-nav-toggler" class="bg-none aspect-ratio d-flex jc-center ai-center border-green text-green ff-yekan hover-bg-green hover-text-white w-100 transition p-1 rounded-dot-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                     </svg>
@@ -478,5 +490,6 @@
 <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
 <script src="assets/base/js/swipers.js"></script>
 <script src="assets/base/js/faq-items.js"></script>
+<script src="assets/base/js/mobile-nav.js"></script>
 </body>
 </html>

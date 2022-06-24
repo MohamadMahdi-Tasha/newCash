@@ -51,6 +51,14 @@ a {text-decoration: none;}
 .jc-sb {justify-content: space-between;}
 .jc-end {justify-content: end;}
 .jc-center {justify-content: center;}
+.h-100 {height: 100%}
+.z-index-1001 {z-index: 1001 !important;}
+.z-index-1002 {z-index: 1002 !important;}
+.bg-dark {background-color: rgba(0,0,0,.5);}
+.mobile-dark-bg[data-opened='true'] {inset: 0 !important;pointer-events: visible !important;}
+.mobile-dark-bg[data-opened='false'] {right: -100%;}
+.mobile-nav[data-opened='true'] {right: 0 !important;}
+.mobile-nav[data-opened='false'] {right: -100% !important;}
 .p-1 {padding: 1rem;}
 .p-2 {padding: 2rem;}
 .p-3 {padding: 3rem;}
