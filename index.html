@@ -23,9 +23,14 @@
 </head>
 <body translate="no" dir="rtl">
 <!--Dark Bg Of Modal-->
-<div class="fixed-top w-100 h-100 bg-dark z-index-1001 pointer-event-none opacity-0 transition" id="modal-bg"></div>
+<div class="fixed-top w-100 h-100 bg-dark z-index-1001 opacity-0 pointer-event-none transition" id="modal-bg"></div>
 <!--Modal Holder-->
-<div class="z-index-1002 fixed-top d-flex jc-center ai-center p-4 pointer-event-none mq-900-p-1" id="modal-holder"></div>
+<div class="z-index-1002 fixed-top d-flex jc-center ai-center p-4 pointer-event-none mq-900-p-1">
+    <!--Video Modal-->
+    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 pointer-event-visible opacity-0" id="video-modal">
+        <div class="w-100 bg-orange rounded" style="height: 50vh;"></div>
+    </div>
+</div>
 <!--Mobile Dark Bg-->
 <div class="fixed-top z-index-1001 w-100 h-100 bg-dark mobile-dark-bg transition d-none mq-900-d-block" data-opened="false" id="mobile-dark-bg"></div>
 <!--Mobile Nav-->
@@ -491,6 +496,7 @@
     <h3 class="text-white">تمام حقوق این وبسایت متعلق به شرکت نیوکاش میباشد.</h3>
 </footer>
 <!--Js Linking-->
+<noscript>لطفا جاوااسکریپت مرورگر خودرا فعال کنید.</noscript>
 <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
 <script src="assets/base/js/swipers.js"></script>
 <script src="assets/base/js/faq-items.js"></script>
