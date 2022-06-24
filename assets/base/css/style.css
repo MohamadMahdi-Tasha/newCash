@@ -113,6 +113,12 @@ a {text-decoration: none;}
 .text-darker-gray {color: var(--gray-darker);}
 .third-sections-swiper > .swiper-button-next,
 .third-sections-swiper > .swiper-button-prev {top: 45% !important;}
+.ta-right {text-align: right;}
+.ff-yekan {font-family: Yekan, sans-serif;}
+.fs-1dot5 {font-size: 1.5rem}
+.faq-item[data-opened='true'] > .faq-content{display: block;}
+.faq-item[data-opened='false'] > .faq-content{display: none;}
+.bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
 
 /*Hover And Active*/
 .hover-bb-orange:hover {border-bottom-color: var(--orange);}
