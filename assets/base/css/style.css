@@ -64,6 +64,7 @@ a {text-decoration: none;}
 .p-3 {padding: 3rem;}
 .p-4 {padding: 4rem;}
 .p-5 {padding: 5rem;}
+.cur-pointer {cursor: pointer;}
 .bg-red {background-color: red;}
 .text-orange {color: var(--orange);}
 .text-green {color: var(--green);}
@@ -126,6 +127,9 @@ a {text-decoration: none;}
 .faq-item[data-opened='true'] > .faq-content{display: block;}
 .faq-item[data-opened='false'] > .faq-content{display: none;}
 .faq-item[data-opened='true'] > .faq-item-toggler > span:last-of-type {transform: rotate(45deg);}
+.opacity-0 {opacity: 0;}
+.modal-bg[data-opened='true'] {opacity: 1;pointer-events: visible !important;}
+.modal-bg[data-opened='false'] {opacity: 0;pointer-events: none !important;}
 .ov-hidden {overflow: hidden;}
 .jc-sa {justify-content: space-around;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
@@ -133,6 +137,7 @@ a {text-decoration: none;}
 .rounded-dot-5 {border-radius: .5rem;}
 .text-right {text-align:right;}
 .third-section.background-lines {background-image: url("../img/third-section/img-bg.png");}
+.mb-1 {margin-bottom: 1rem;}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px !important;
