@@ -124,6 +124,7 @@ a {text-decoration: none;}
 .jc-sa {justify-content: space-around;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
 .bg-darker-gray {background-color: var(--gray-darker);}
+.rounded-dot-5 {border-radius: .5rem;}
 
 /*Hover And Active*/
 .hover-bb-orange:hover {border-bottom-color: var(--orange);}
@@ -134,3 +135,24 @@ button.bg-orange:hover {background-color: var(--orange-dark);}
 button.bg-orange:active {background-color: var(--orange-darker);}
 button.bg-green:hover {background-color: var(--green-dark);}
 button.bg-green:active {background-color: var(--green-darker);}
+
+/*Media Querys*/
+@media (max-width: 900px) {
+    section, header {padding: 1rem !important;}
+    header > ul > li:not(:first-of-type) {display: none;}
+    header > ul > li:last-of-type {display: block;}
+    section:first-of-type > main {display: flex;flex-direction: column;}
+    section:first-of-type > main > div:first-of-type > div:last-of-type {width: 100% !important;justify-content: start;}
+    section:first-of-type > main > div:first-of-type > div:last-of-type a{width: 40% !important;}
+    section:first-of-type > main > div:first-of-type {margin-bottom: 3rem;}
+    section:first-of-type > main > div:last-of-type {justify-content: center !important;width: 100%;}
+    section:first-of-type > main > div:last-of-type > .swiper{margin-right: 0 !important;width: 100% !important;height: auto !important;}
+    .bg-centred {background-size: cover;}
+    .first-section-swiper > .swiper-pagination {transform: none !important;}
+    section:first-of-type > main > div {width: 100%;}
+}
+
+@media (max-width: 372px) {
+    section:first-of-type > main > div:first-of-type > h1:nth-of-type(2) {font-size: 5rem;}
+    section:first-of-type > main > div:first-of-type > h1:nth-of-type(1) {font-size: 3rem;}
+}
