@@ -152,6 +152,7 @@ a {text-decoration: none;}
 .w-90 {width: 90%;}
 #charge-modal-successful {background-image: url("../img/modal/img-succsesful-bg.png");}
 .modal-share-btn  {width: 4vw;height: 4vw;}
+.border-orange {border: 1px solid var(--orange);}
 
 .modal-forms-input {
     background-color: var(--gray);
@@ -178,6 +179,7 @@ button.bg-orange:active {background-color: var(--orange-darker);}
 button.bg-green:hover {background-color: var(--green-dark);}
 button.bg-green:active {background-color: var(--green-darker);}
 .modal-forms-input:focus {border-color: var(--green);box-shadow: 0 0 30px rgba(var(--green-rgba), .2) !important;}
+.hover-bg-orange:hover {background-color: var(--orange);}
 
 /*Media Querys*/
 @media (max-width: 900px) {
