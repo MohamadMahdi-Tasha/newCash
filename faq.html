@@ -24,13 +24,13 @@
 <!--Dark Bg Of Modal-->
 <div class="fixed-top w-100 h-100 bg-dark z-index-1000 opacity-0 pointer-event-none transition" id="modal-bg"></div>
 <!--Modal Holder-->
-<div class="z-index-1002 fixed-top d-flex jc-center ai-center p-4 pointer-event-none mq-900-p-1">
+<div class="z-index-1002 fixed-top d-flex jc-center ai-center h-100 w-100 p-4 pointer-event-none mq-900-p-1">
     <!--Video Modal-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="video-modal">
+    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="video-modal">
         <div class="w-100 bg-orange rounded" style="height: 50vh;"></div>
     </div>
     <!--Charge Modal-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal">
+    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal">
         <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
         <h1>شارژ حساب نیوکالا</h1>
         <form id="charge-modal-form" action="#" class="d-flex flex-d-c">
@@ -46,7 +46,7 @@
         </form>
     </div>
     <!--Charge Modal step 2-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-step2">
+    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-step2">
         <div class="d-inline-flex ai-start jc-sb w-100">
             <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
             <button class="aspect-ratio w-7 circle bg-none border-0" id="modal-go-back-btn">
@@ -76,7 +76,7 @@
         </div>
     </div>
     <!--Charge Successful-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none bg-centred-cover" id="charge-modal-successful">
+    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none bg-centred-cover" id="charge-modal-successful">
         <div class="d-flex flex-d-c ai-center jc-center w-100">
             <img src="assets/base/img/modal/img-happy-face.png" alt="موفیقت امیز" class="mb-1">
             <h1>شارژ حساب نیوکاش</h1>
@@ -114,7 +114,7 @@
         </div>
     </div>
     <!--Charge Not Successful-->
-    <div class="w-50 bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-not-successful">
+    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-not-successful">
         <div class="d-flex flex-d-c ai-center jc-center w-100 mb-5">
             <img src="assets/base/img/modal/img-sad-face.png" alt="موفیقت امیز نبود" class="mb-1">
             <h1>شارژ حساب نیوکاش</h1>
@@ -130,13 +130,13 @@
 <!--Mobile Dark Bg-->
 <div class="fixed-top z-index-1001 w-100 h-100 bg-dark mobile-dark-bg transition d-none mq-900-d-block" data-opened="false" id="mobile-dark-bg"></div>
 <!--Mobile Nav-->
-<nav class="fixed-top w-75 h-100 z-index-1002 bg-orange shadow mobile-nav transition d-none mq-900-d-block" data-opened="false" id="mobile-nav">
+<nav class="fixed-top w-75 h-100 z-index-1002 bg-green shadow mobile-nav transition d-none mq-900-d-block" data-opened="false" id="mobile-nav">
     <ul class="w-100">
-        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">خدمات</button></a></li>
-        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">نماینده ها</button></a></li>
-        <li class="w-100 active"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
-        <li class="w-100"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition w-100" href="#"><button class="bg-none border-green text-green  text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">درباره ما</button></a></li>
-        <li class="w-100"><button class="charge-account-btn bg-none border-green text-green text-right ff-yekan hover-bg-green hover-text-white w-100 transition p-1">شارژ حساب</button></li>
+        <li class="w-100"><a class="w-100" href="#"><button class="bg-none border-orange text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">خدمات</button></a></li>
+        <li class="w-100"><a class="w-100" href="#"><button class="bg-none border-orange text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">نماینده ها</button></a></li>
+        <li class="w-100"><a class="w-100" href="faq.html"><button class="bg-none border-orange text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
+        <li class="w-100"><a class="w-100" href="#"><button class="bg-none border-orange text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">درباره ما</button></a></li>
+        <li class="w-100"><button class="bg-none border-orange text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1 charge-account-btn">شارژ حساب</button></li>
     </ul>
 </nav>
 <!--Support Btn Holder-->
@@ -176,7 +176,7 @@
             <p>عندما تكون الامول في المحفظة ، يمكنك استخدام جميع خدمات التطبيق عبر الإنترنت ، بما في ذلك الحجوزات والتحويلات المالية ، وأيضًا عندما تكون الأموال في المحفظة وتفقد بطاقتك المصرفية ، ستكون أموالك آمنة في المحفظة.</p>
         </div>
         <!--Left Side Image-->
-        <img src="assets/base/img/faq-page/img-leftside-first-section.png" alt="" class="w-50 mq-900-w-100">
+        <img src="assets/base/img/faq-page/img-leftside-first-section.png" alt="سوالات متداول" class="w-50 mq-900-w-100">
     </main>
 </section>
 <!--Faq Section-->
