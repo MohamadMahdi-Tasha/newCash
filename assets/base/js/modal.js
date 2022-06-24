@@ -29,3 +29,11 @@ function showModal(modal) {
 // Adding Event Listener On First Sections Left side Videos That Listens To Click And Shows A Modal That Plays Video.
 firstSectionLeftVideos.forEach(video => video.addEventListener('click', () => showModal(videoModal)))
 chargeAccountBtn.forEach(btn => btn.addEventListener('click', () => showModal(chargeModal)));
+
+document.querySelectorAll('.deni-btn').forEach(btn => btn.addEventListener('click', () => closeModal(btn.parentElement.parentElement)));
+
+document.querySelectorAll('.modal-go-back-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        // if ()
+    })
+})

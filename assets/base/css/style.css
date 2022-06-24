@@ -147,6 +147,8 @@ a {text-decoration: none;}
 .mb-dot-5 {margin-bottom: .5rem;}
 .modal-forms-checkbox {accent-color: var(--green);}
 .modal-forms-input::placeholder {color: #c2c2c2;}
+.ai-start {align-items: start;}
+.w-7 {width: 7%;}
 
 .modal-forms-input {
     background-color: var(--gray);
