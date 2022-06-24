@@ -11,7 +11,7 @@
     --orange-darker: #c3681b;
     --green-rgba: 119, 192, 67;
     --orange-rgba: 245, 130, 32;
-    --gray: #D9D9D9;
+    --gray: #ECECEC;
 }
 
 /*Css Reset*/
@@ -97,7 +97,18 @@ a {text-decoration: none;}
 .support-btn {width: 100px;}
 .circle {border-radius: 100%;}
 .border-0 {border: 0;}
+.d-grid {display: grid;}
 .shadow {box-shadow: 0 0 30px rgba(0,0,0,.2);}
+.grid-tc-3 {grid-template-columns: repeat(3, 1fr);}
+.gap-3 {gap: 3rem;}
+.gap-5 {gap: 5rem;}
+.bg-gray {background-color: var(--gray);}
+.bg-white {background-color: white;}
+.rounded {border-radius: 2rem;}
+.text-center {text-align: center;}
+.fs-2 {font-size: 2rem;}
+.text-white {color: white;}
+.bl-white {border-left: 1px solid white;}
 
 /*Hover And Active*/
 .hover-bb-orange:hover {border-bottom-color: var(--orange);}
