@@ -27,6 +27,7 @@
 body {
     font-size: 15px !important;
     font-family: Yekan, sans-serif !important;
+    scroll-behavior: smooth;
 }
 
 img {pointer-events: none;}
