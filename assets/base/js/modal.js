@@ -11,6 +11,8 @@ const chargeModalStep2SubmitBtn = document.getElementById('charge-modal-step2-su
 const chargeModalSuccessful = document.getElementById('charge-modal-successful');
 const chargedSuccsesfulyAcceptBtn = document.getElementById('charge-successful-accept-btn');
 const denibtn = document.getElementById('deni-btn');
+const denibtn2 = document.getElementById('deni-btn2');
+const chargeModalNotSuccessful = document.getElementById('charge-modal-not-successful');
 
 // A Function That Takes Modal As An Argument And Removes It And Removes Dark Bg Of It.
 function closeModal(modal) {
@@ -58,8 +60,9 @@ chargeModalStep2SubmitBtn.addEventListener('click', () => showNextModal(chargeMo
 // Adding Event Listener Charge Was Successful Modal That Closes Modal;
 chargedSuccsesfulyAcceptBtn.addEventListener('click', () => closeModal(chargeModalSuccessful));
 
-// Adding Event Listner On Deni Button That Again Closes Modal
+// Adding Event Listner On Deni Buttons That Again Closes Their Modal
 denibtn.addEventListener('click', () => closeModal(chargeModalStep2));
+denibtn2.addEventListener('click', () => closeModal(chargeModalNotSuccessful));
 
 // Adding Event Listener On Form Element Of Charge Modal That Listens To Submit And Prevents From Default Action
 // And Shows Its Next Modal.
