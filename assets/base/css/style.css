@@ -65,9 +65,7 @@ a {text-decoration: none;}
 .p-2 {padding: 2rem;}
 .p-3 {padding: 3rem;}
 .p-4 {padding: 4rem;}
-.p-5 {padding: 5rem;}
 .cur-pointer {cursor: pointer;}
-.bg-red {background-color: red;}
 .text-orange {color: var(--orange);}
 .text-green {color: var(--green);}
 .bg-green {background-color: var(--green);}
@@ -102,7 +100,6 @@ a {text-decoration: none;}
 .first-section-swiper {height: 70vh;}
 .first-section-swiper > .swiper-pagination {transform: translateX(3vw) translateY(20vh) !important;}
 .first-section-swiper > .swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {background-color: var(--green) !important;}
-.first-section-swiper > .swiper-button-next, .first-section-swiper > .swiper-button-prev {color: var(--gray) !important;}
 .bb-transparent {border-bottom: 1px solid transparent;}
 .pointer-event-none {pointer-events: none;}
 .pointer-event-visible {pointer-events: visible;}
@@ -155,18 +152,13 @@ a {text-decoration: none;}
 .modal-share-btn  {width: 4vw;height: 4vw;}
 .border-orange {border: 1px solid var(--orange);}
 .modal {height: 80vh;}
+.third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {top: 45% !important;}
 
 .modal-forms-input {
     background-color: var(--gray);
     border: 1px solid var(--gray-darker);
     border-radius: 10px;
     font-size: 1rem;
-}
-
-.third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
-    top: 45% !important;
-    width: 10px !important;
-    height: 10px !important;
 }
 
 /*Hover And Active*/
@@ -190,10 +182,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .first-section-swiper > .swiper-pagination {transform: none !important;}
     .support-btn {width: 50px;}
     .modal-share-btn {width: 10vw;height: 10vw;}
-    .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
-        width: 5px !important;
-        height: 5px !important;
-    }
+    .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {display: none !important;}
 
     .mq-900-d-none {display: none;}
     .mq-900-d-block {display: block;}
