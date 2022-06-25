@@ -237,4 +237,5 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-372-w-100 {width: 100%;}
     .mq-372-mb-3 {margin-bottom: 3rem;}
     .mq-372-jc-sb {justify-content: space-between !important;}
+    .mq-372-gap-0 {gap: 0;}
 }

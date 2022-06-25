@@ -35,14 +35,14 @@
         <h1>شارژ حساب نیوکالا</h1>
         <form id="charge-modal-form" action="#" class="d-flex flex-d-c">
             <label class="text-darker-gray mb-dot-5" for="phone-number">شماره تماس برای شارژ حساب</label>
-            <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
+            <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 mq-900-p-dot-5 transition ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
             <label class="text-darker-gray mb-dot-5" for="price-number">مبلغ به تومان</label>
-            <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="number" min="1000" max="1000000" id="price-number" placeholder="1.000.000 تومان">
+            <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 mq-900-p-dot-5 transition ff-yekan" type="number" min="1000" max="1000000" id="price-number" placeholder="1.000.000 تومان">
             <div class="d-inline-flex ai-center mb-2">
                 <input required type="checkbox" id="im-not-robot" class="ml-1 modal-forms-checkbox">
                 <label class="text-darker-gray" for="im-not-robot">من ربات نیستم</label>
             </div>
-            <button class="bg-orange transition border-0 rounded text-white p-1 ff-yekan fs-2 w-100 shadow-orange hover-bg-dark-orange" type="submit">ادامه</button>
+            <button class="bg-orange transition border-0 rounded text-white p-1 mq-900-p-dot-5 ff-yekan fs-2 w-100 shadow-orange hover-bg-dark-orange" type="submit">ادامه</button>
         </form>
     </div>
     <!--Charge Modal step 2-->
@@ -71,8 +71,8 @@
             </li>
         </ul>
         <div class="d-inline-flex w-100 gap-3">
-            <button class="w-50 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5" id="charge-modal-step2-submit-btn">تاکید</button>
-            <button class="w-50 bg-orange transition border-0 p-1 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn">انصراف</button>
+            <button class="w-50 bg-green transition border-0 p-1 mq-900-p-dot-5 shadow-green rounded-pill text-white ff-yekan fs-1dot5" id="charge-modal-step2-submit-btn">تاکید</button>
+            <button class="w-50 bg-orange transition border-0 p-1 mq-900-p-dot-5 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn">انصراف</button>
         </div>
     </div>
     <!--Charge Successful-->
@@ -105,8 +105,8 @@
             </li>
         </ul>
         <div class="d-inline-flex w-100 gap-3">
-            <button id="charge-successful-accept-btn" class="bg-green w-90 transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
-            <button class="transition aspect-ratio bg-green border-0 p-1 shadow-green circle text-white modal-share-btn">
+            <button id="charge-successful-accept-btn" class="bg-green w-90 transition border-0 p-1 mq-900-p-dot-5 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
+            <button class="transition aspect-ratio bg-green border-0 p-1 mq-900-p-dot-5 shadow-green circle text-white modal-share-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
                 </svg>
@@ -114,7 +114,7 @@
         </div>
     </div>
     <!--Charge Not Successful-->
-    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-not-successful">
+    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002  pointer-event-none" id="charge-modal-not-successful">
         <div class="d-flex flex-d-c ai-center jc-center w-100 mb-5">
             <img src="assets/base/img/modal/img-sad-face.png" alt="موفیقت امیز نبود" class="mb-1">
             <h1>شارژ حساب نیوکاش</h1>
@@ -122,8 +122,8 @@
         </div>
         <p class="text-center fs-1dot5 mb-5">در صورت عدم پرداخت لطفا مجددا تلاش کنید یا با پشتیبانی تماس برقرار کنید</p>
         <div class="d-inline-flex w-100 gap-3">
-            <button class="w-50 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5">پشتیبان</button>
-            <button class="w-50 bg-orange transition border-0 p-1 shadow-orange rounded-pill text-white ff-yekan fs-1dot5">بازگشت</button>
+            <button class="w-50 bg-green transition border-0 p-1 mq-900-p-dot-5 shadow-green rounded-pill text-white ff-yekan fs-1dot5">پشتیبان</button>
+            <button class="w-50 bg-orange transition border-0 p-1 mq-900-p-dot-5 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn2">بازگشت</button>
         </div>
     </div>
 </div>
