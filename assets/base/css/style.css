@@ -152,7 +152,11 @@ a {text-decoration: none;}
 .modal-share-btn  {width: 4vw;height: 4vw;}
 .border-orange {border: 1px solid var(--orange);}
 .modal {height: 80vh;}
-.third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {top: 45% !important;}
+.third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
+    top: 45% !important;
+    width: 10px;
+    height: 10px;
+}
 
 .modal-forms-input {
     background-color: var(--gray);
