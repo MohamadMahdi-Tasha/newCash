@@ -21,112 +21,6 @@
     <title>اپلیکیشن نیوکاش : سوالات متداول | newCash App : Faq</title>
 </head>
 <body class="bg-gray" translate="no" dir="rtl">
-<!--Dark Bg Of Modal-->
-<div class="fixed-top w-100 h-100 bg-dark z-index-1000 opacity-0 pointer-event-none transition" id="modal-bg"></div>
-<!--Modal Holder-->
-<div class="z-index-1002 fixed-top d-flex jc-center ai-center h-100 w-100 p-4 pointer-event-none mq-900-p-1">
-    <!--Video Modal-->
-    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="video-modal">
-        <div class="w-100 bg-orange rounded" style="height: 50vh;"></div>
-    </div>
-    <!--Charge Modal-->
-    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal">
-        <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
-        <h1>شارژ حساب نیوکالا</h1>
-        <form id="charge-modal-form" action="#" class="d-flex flex-d-c">
-            <label class="text-darker-gray mb-dot-5" for="phone-number">شماره تماس برای شارژ حساب</label>
-            <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 mq-900-p-dot-5 transition ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
-            <label class="text-darker-gray mb-dot-5" for="price-number">مبلغ به تومان</label>
-            <input required dir="ltr" class="modal-forms-input mb-2 text-darker-gray p-1 mq-900-p-dot-5 transition ff-yekan" type="number" min="1000" max="1000000" id="price-number" placeholder="1.000.000 تومان">
-            <div class="d-inline-flex ai-center mb-2">
-                <input required type="checkbox" id="im-not-robot" class="ml-1 modal-forms-checkbox">
-                <label class="text-darker-gray" for="im-not-robot">من ربات نیستم</label>
-            </div>
-            <button class="bg-orange transition border-0 rounded text-white p-1 mq-900-p-dot-5 ff-yekan fs-2 w-100 shadow-orange hover-bg-dark-orange" type="submit">ادامه</button>
-        </form>
-    </div>
-    <!--Charge Modal step 2-->
-    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none" id="charge-modal-step2">
-        <div class="d-inline-flex ai-start jc-sb w-100">
-            <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
-            <button class="aspect-ratio w-7 circle bg-none border-0" id="modal-go-back-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                </svg>
-            </button>
-        </div>
-        <h1 class="mb-2">شارژ حساب نیوکالا</h1>
-        <ul class="mb-2">
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                شماره کارت
-                <span>6037 0102 0304 0506</span>
-            </li>
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                صاحب کارت
-                <span>علی احمد سالم</span>
-            </li>
-            <li class="w-100 d-inline-flex ai-center jc-sb">
-                مبلغ به تومان
-                <span>1.000.000</span>
-            </li>
-        </ul>
-        <div class="d-inline-flex w-100 gap-3">
-            <button class="w-50 bg-green transition border-0 p-1 mq-900-p-dot-5 shadow-green rounded-pill text-white ff-yekan fs-1dot5" id="charge-modal-step2-submit-btn">تاکید</button>
-            <button class="w-50 bg-orange transition border-0 p-1 mq-900-p-dot-5 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn">انصراف</button>
-        </div>
-    </div>
-    <!--Charge Successful-->
-    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002 pointer-event-none bg-centred-cover" id="charge-modal-successful">
-        <div class="d-flex flex-d-c ai-center jc-center w-100">
-            <img src="assets/base/img/modal/img-happy-face.png" alt="موفیقت امیز" class="mb-1">
-            <h1>شارژ حساب نیوکاش</h1>
-            <h2 class="text-green">شارژ حساب با موفقیت انجام شد!</h2>
-        </div>
-        <ul class="mb-2">
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                مبلغ
-                <span>1.000.000</span>
-            </li>
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                صاحب کارت
-                <span>علی احمد سالم</span>
-            </li>
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                کارمزد
-                <span>10.000</span>
-            </li>
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                تاریخ
-                <span>1400/02/11</span>
-            </li>
-            <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
-                شماره پیگیری
-                <span>2514369870</span>
-            </li>
-        </ul>
-        <div class="d-inline-flex w-100 gap-3">
-            <button id="charge-successful-accept-btn" class="bg-green w-90 transition border-0 p-1 mq-900-p-dot-5 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button>
-            <button class="transition aspect-ratio bg-green border-0 p-1 mq-900-p-dot-5 shadow-green circle text-white modal-share-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-                </svg>
-            </button>
-        </div>
-    </div>
-    <!--Charge Not Successful-->
-    <div class="w-50 modal ov-scroll bg-white rounded shadow p-3 mq-900-w-100 mq-900-p-1 ov-scroll scroll-hidden d-none z-index-1002  pointer-event-none" id="charge-modal-not-successful">
-        <div class="d-flex flex-d-c ai-center jc-center w-100 mb-5">
-            <img src="assets/base/img/modal/img-sad-face.png" alt="موفیقت امیز نبود" class="mb-1">
-            <h1>شارژ حساب نیوکاش</h1>
-            <h2 class="text-orange">خطا در تراکنش !</h2>
-        </div>
-        <p class="text-center fs-1dot5 mb-5">در صورت عدم پرداخت لطفا مجددا تلاش کنید یا با پشتیبانی تماس برقرار کنید</p>
-        <div class="d-inline-flex w-100 gap-3">
-            <button class="w-50 bg-green transition border-0 p-1 mq-900-p-dot-5 shadow-green rounded-pill text-white ff-yekan fs-1dot5">پشتیبان</button>
-            <button class="w-50 bg-orange transition border-0 p-1 mq-900-p-dot-5 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn2">بازگشت</button>
-        </div>
-    </div>
-</div>
 <!--Mobile Dark Bg-->
 <div class="fixed-top z-index-1001 w-100 h-100 bg-dark mobile-dark-bg transition d-none mq-900-d-block" data-opened="false" id="mobile-dark-bg"></div>
 <!--Mobile Nav-->
@@ -134,9 +28,9 @@
     <ul class="w-100">
         <li class="w-100"><a class="w-100" href="#services-sect"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">خدمات</button></a></li>
         <li class="w-100"><a class="w-100" href="#namayandeh-ha-sect"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">نماینده ها</button></a></li>
-        <li class="w-100"><a class="w-100" href="faq.html"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
+        <li class="w-100 active"><a class="w-100" href="faq.html"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
         <li class="w-100"><a class="w-100" href="#about-us-sect"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">درباره ما</button></a></li>
-        <li class="w-100"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1 charge-account-btn">شارژ حساب</button></li>
+        <li class="w-100"><a href="charge.html" class="w-100"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1 charge-account-btn">شارژ حساب</button></a></li>
     </ul>
 </nav>
 <!--Support Btn Holder-->
@@ -157,7 +51,7 @@
             <li class="mq-900-d-none"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">نماینده ها</a></li>
             <li class="mq-900-d-none active"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="faq.html">سوالات متداول</a></li>
             <li class="mq-900-d-none"><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">درباره ما</a></li>
-            <li class="w-10 mq-900-d-none"><button class="charge-account-btn bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition p-1">شارژ حساب</button></li>
+            <li class="w-10 mq-900-d-none"><a href="charge.html"><button class="charge-account-btn bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition p-1">شارژ حساب</button></a></li>
             <li class="d-none mq-900-d-block">
                 <button id="mobile-nav-toggler" class="bg-none aspect-ratio d-flex jc-center ai-center border-green text-green ff-yekan hover-bg-green hover-text-white w-100 transition p-1 rounded-dot-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -339,6 +233,5 @@
 <noscript>لطفا جاوااسکریپت مرورگر خودرا فعال کنید.</noscript>
 <script src="assets/base/js/faq-items.js"></script>
 <script src="assets/base/js/mobile-nav.js"></script>
-<script src="assets/base/js/modal.js"></script>
 </body>
 </html>
