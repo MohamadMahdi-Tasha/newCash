@@ -14,6 +14,7 @@ const firstSectionsSwiperVertical = new Swiper(".first-section-swiper", {
 // Swiper Of Third Section
 const thirdSectionsSwiper = new Swiper(".third-sections-swiper", {
     slidesPerView: 3,
+    direction: 'rtl',
     breakpoints: {
         640:{slidesPerView: 3,},
         1:{slidesPerView: 2,},
