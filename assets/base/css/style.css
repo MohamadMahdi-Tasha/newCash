@@ -186,6 +186,7 @@ button.bg-green:hover {background-color: var(--green-dark);}
 button.bg-green:active {background-color: var(--green-darker);}
 .charge-forms-input:focus {border-color: var(--green);box-shadow: 0 0 30px rgba(var(--green-rgba), .2) !important;}
 .hover-bg-orange:hover {background-color: var(--orange);}
+.charge-forms-input:focus-visible:invalid {border-color: red}
 
 /*Media Querys*/
 @media (max-width: 900px) {
