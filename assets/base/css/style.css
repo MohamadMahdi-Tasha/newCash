@@ -127,7 +127,7 @@ a {text-decoration: none;}
 .faq-item[data-opened='false'] > .faq-content{display: none;}
 .faq-item[data-opened='true'] > .faq-item-toggler > span:last-of-type {transform: rotate(45deg);}
 .opacity-0 {opacity: 0;}
-.ov-hidden {overflow: hidden;}
+.ov-hidden {overflow: hidden !important;}
 .jc-sa {justify-content: space-around;}
 .bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
 .bg-darker-gray {background-color: var(--gray-darker);}
