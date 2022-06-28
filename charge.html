@@ -24,16 +24,16 @@
 <!--Modal Holder-->
 <div class="d-flex jc-center ai-center minh-100vh w-100 bg-dark p-4 mq-991-p-2">
     <!--Contents Holder-->
-    <div class="charge ov-scroll scroll-hidden scroll-x-hidden bg-white rounded shadow scroll-hidden w-50 jc-center pos-relm mq-991-w-75">
+    <div class="charge ov-scroll scroll-hidden scroll-x-hidden bg-white rounded shadow w-50 jc-center pos-rel mq-991-w-75">
         <!--Charge-->
-        <div class="p-3 transition" id="charge-modal">
+        <div class="p-3 transition pos-abs top-0 w-100" id="charge-modal">
                 <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
                 <h1>شارژ حساب نیوکالا</h1>
                 <form id="charge-modal-form" action="#" class="d-flex flex-d-c">
                     <label class="text-darker-gray mb-dot-5" for="phone-number">شماره تماس برای شارژ حساب</label>
                     <input required dir="ltr" class="charge-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
                     <label class="text-darker-gray mb-dot-5" for="price-number">مبلغ به تومان</label>
-                    <input required dir="ltr" class="charge-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="number" min="1000" max="10000000" id="price-number" placeholder="1.000.000 تومان">
+                    <input autocomplete="no" required dir="ltr" class="charge-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="number" min="1000" max="10000000" id="price-number" placeholder="1.000.000 تومان">
                     <div class="d-inline-flex ai-center mb-2">
                         <input required type="checkbox" id="im-not-robot" class="ml-1 charge-forms-checkbox">
                         <label class="text-darker-gray" for="im-not-robot">من ربات نیستم</label>

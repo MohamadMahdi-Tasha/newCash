@@ -9,9 +9,9 @@ const priceInput = document.getElementById('price-number');
 const price = document.getElementById('price-show');
 
 // A Function That Takes Modal As Parameter And Adds ClassNames OF 'left-100', 'pos-abs' To Given Modal
-function closeModal(modal) {modal.classList.add('pos-abs', 'left-100');}
+function closeModal(modal) {modal.style.setProperty('left', '100%');}
 // A Function That Takes Modal As Parameter And Removes ClassNames OF 'lefted', 'pos-abs' From Given Modal
-function showModal(modal) {modal.classList.remove('lefted', 'pos-abs');}
+function showModal(modal) {modal.style.setProperty('left', '0');}
 // A Function That Closes Current Modal And Shows Next One
 function showNextModal(currentModal, nextModal) {closeModal(currentModal);showModal(nextModal);}
 // A Function That Closes Current Modal And Shows Previous One
