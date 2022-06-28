@@ -22,24 +22,13 @@
     <title>اپلیکیشن نیوکاش | newCash App</title>
 </head>
 <body translate="no" dir="rtl">
-<!--Mobile Dark Bg-->
-<div class="fixed-top z-index-1001 w-100 h-100 bg-dark mobile-dark-bg transition d-none" data-opened="false" id="mobile-dark-bg"></div>
-<!--Mobile Nav-->
-<nav class="fixed-top w-75 h-100 z-index-1002 bg-white shadow mobile-nav transition d-none" data-opened="false" id="mobile-nav">
-    <ul class="w-100">
-        <li class="w-100"><a class="w-100" href="#services-sect"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">خدمات</button></a></li>
-        <li class="w-100"><a class="w-100" href="#namayandeh-ha-sect"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">نماینده ها</button></a></li>
-        <li class="w-100"><a class="w-100" href="faq.html"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">سوالات متداول</button></a></li>
-        <li class="w-100"><a class="w-100" href="#about-us-sect"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1">درباره ما</button></a></li>
-        <li class="w-100"><a href="charge.html" class="w-100"><button class="bg-none border-0 text-orange text-right ff-yekan hover-bg-orange hover-text-white w-100 transition p-1 charge-account-btn">شارژ حساب</button></a></li>
-    </ul>
-</nav>
 <!--Support Btn Holder-->
-<div class="fixed-top d-flex ai-end p-2 jc-end pointer-event-none">
-    <button class="aspect-ratio support-btn pointer-event-visible circle border-0 bg-orange shadow transition p-1">
-        <svg width="100%" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div class="fixed-top d-flex ai-end p-2 jc-end pointer-event-none support-btn-holder">
+    <button class="aspect-ratio support-btn pointer-event-visible circle border-0 bg-orange shadow transition p-1 mq-991-w-100 mq-991-aspect-ratio-rectangular mq-991-rounded-pill">
+        <svg class="mq-991-d-none" width="100%" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M65.9027 38.0997C65.9027 38.3703 65.9027 38.9114 65.9027 39.182C65.9027 39.9937 65.9027 40.8054 65.9027 41.6171C65.3682 44.5934 64.0319 47.2991 61.8938 48.9225C60.8248 49.7342 59.7558 50.5459 58.4195 50.8165C58.1522 50.8165 58.1522 50.8165 57.885 50.8165C53.6089 58.1219 47.1947 62.9921 40.246 65.1567C39.177 65.4273 38.108 65.6978 36.7717 65.9684C36.2372 65.9684 35.1682 66.239 34.3664 66.239H30.6248C29.0213 66.239 27.685 64.6156 27.685 62.7216V58.9336C27.685 57.8513 28.2195 56.769 29.0213 56.2279C29.5558 55.6868 30.3575 55.4162 31.1593 55.4162L38.6425 56.4985C40.246 56.769 41.3151 58.1219 41.3151 60.0159C46.6602 57.8513 51.4708 53.5222 54.9452 47.5697V28.0887H55.7469C56.5487 28.0887 57.0832 28.0886 57.885 28.3592C54.4106 16.1836 44.2549 7.79592 33.2974 7.79592C21.8053 8.06649 11.9168 16.4542 8.4425 28.6298C9.24427 28.3592 9.77879 28.3592 10.5806 28.3592H11.3823V51.3577H10.5806C9.51153 51.3577 8.70976 51.0871 7.90799 50.8165C6.83896 50.5459 5.50268 49.7342 4.43365 48.9225C2.2956 47.0285 0.959318 44.5934 0.424805 41.6171C0.424805 40.8054 0.424805 39.9937 0.424805 38.9114C0.424805 38.6409 0.424805 38.0997 0.424805 37.8292C0.424805 17.5364 15.1239 0.761108 33.0301 0.761108C51.2036 0.761108 65.9027 17.5364 65.9027 38.0997Z" fill="white"/>
         </svg>
+        <span class="d-none mq-991-d-block ff-yekan text-white fs-1dot5">پشتیبانی</span>
     </button>
 </div>
 <!--First Section-->
@@ -48,10 +37,10 @@
     <header class="abs-top prl-4 ptb-2 header">
         <ul class="d-inline-flex w-100 jc-sb ai-center">
             <li><a href="index.html"><img src="assets/base/img/img-logo-typo.png" class="w-75" alt="نیوکاش"></a></li>
-            <li><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">خدمات</a></li>
-            <li><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">نماینده ها</a></li>
-            <li><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="faq.html">سوالات متداول</a></li>
-            <li><a class="hover-bb-orange bb-transparent hover-text-orange text-black transition" href="#">درباره ما</a></li>
+            <li><a class="hover-bb-orange mq-991-d-none bb-transparent hover-text-orange text-black transition" href="#">خدمات</a></li>
+            <li><a class="hover-bb-orange mq-991-d-none bb-transparent hover-text-orange text-black transition" href="#">نماینده ها</a></li>
+            <li><a class="hover-bb-orange mq-991-d-none bb-transparent hover-text-orange text-black transition" href="faq.html">سوالات متداول</a></li>
+            <li><a class="hover-bb-orange mq-991-d-none bb-transparent hover-text-orange text-black transition" href="#">درباره ما</a></li>
             <li class="d-inline-flex ai-center jc-end w-10">
                 <a class="ml-1" href="#"><button class="lang-header-btn bg-none border-green text-green ff-yekan hover-bg-green hover-text-white circle w-100 transition">EN</button></a>
                 <a href="charge.html"><button class="charge-account-btn bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition p-1">شارژ حساب</button></a>
@@ -66,26 +55,56 @@
         </ul>
     </header>
     <!--Main Section-->
-    <main class="d-inline-flex ai-center w-100 mt-5">
+    <main class="d-inline-flex ai-center w-100 mt-5 mq-991-d-flex mq-991-flex-d-c-revers">
         <!--Right Side-->
-        <div class="w-50">
-            <h1 class="text-orange fs-5rem">اپلیکیشن</h1>
-            <img src="assets/base/img/first-section/img-newcash-logo.png" alt="نیوکاش" width="100%">
-            <h1 class="fs-3rem fw-bold">با نیو کاش بدون پول نقد سفر کن!</h1>
-            <h4 class="fw-normal mb-3">اولین کیف پول الکترونیکی برای گردشگران عرب زبان</h4>
+        <div class="w-50 mq-991-w-100 mq-991-mt-5">
+            <div class="mq-991-d-none">
+                <h1 class="text-orange fs-5rem">اپلیکیشن</h1>
+                <img src="assets/base/img/first-section/img-newcash-logo.png" alt="نیوکاش" width="100%">
+                <h1 class="fs-3rem fw-bold">با نیو کاش بدون پول نقد سفر کن!</h1>
+                <h4 class="fw-normal mb-3">اولین کیف پول الکترونیکی برای گردشگران عرب زبان</h4>
+            </div>
             <div class="d-inline-flex w-100">
-                <a href="#" class="w-50 z-index-1002 ml-3"><img src="assets/base/img/first-section/img-google-play.png" class="w-100 shadow-orange rounded-pill" alt="دانلود نسخه android"></a>
-                <a href="#" class="w-50 z-index-1002"><img src="assets/base/img/first-section/img-apple-store.png" class="w-100 shadow-green rounded-pill" alt="دانلود نسخه ios"></a>
+                <a href="#" class="w-50 mq-991-w-100 ml-3"><img src="assets/base/img/first-section/img-google-play.png" class="w-100 shadow-orange rounded-pill" alt="دانلود نسخه android"></a>
+                <a href="#" class="w-50 mq-991-w-100"><img src="assets/base/img/first-section/img-apple-store.png" class="w-100 shadow-green rounded-pill" alt="دانلود نسخه ios"></a>
             </div>
         </div>
         <!--Left Side Image-->
-        <div class="d-flex jc-end w-50" dir="ltr">
-            <div class="swiper first-section-swiper d-flex ml-0 aspect-ratio">
-                <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos"></a>
-                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos"></a>
-                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos"></a>
-                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos"></a>
+        <div class="d-flex jc-end w-50 mq-991-w-100" dir="ltr">
+            <div class="swiper first-section-swiper d-flex ml-0 aspect-ratio mq-991-w-100 mq-991-mt-5">
+                <div class="swiper-wrapper mq-991-w-100">
+                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos mq-991-w-100">
+                        <div dir="rtl" class="d-none mq-991-d-flex mq-991-flex-d-c ai-start jc-end h-100 mq-991-p-2">
+                            <h1 class="text-orange fs-5rem">اپلیکیشن</h1>
+                            <img src="assets/base/img/first-section/img-newcash-logo.png" alt="نیوکاش" width="50%">
+                            <h1 class="fs-3rem fw-bold text-black">با نیو کاش بدون پول نقد سفر کن!</h1>
+                            <h4 class="fw-normal mb-3 text-black">اولین کیف پول الکترونیکی برای گردشگران عرب زبان</h4>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos">
+                        <div dir="rtl" class="d-none mq-991-d-flex mq-991-flex-d-c ai-start jc-end h-100 mq-991-p-2">
+                            <h1 class="text-orange fs-5rem">اپلیکیشن</h1>
+                            <img src="assets/base/img/first-section/img-newcash-logo.png" alt="نیوکاش" width="50%">
+                            <h1 class="fs-3rem fw-bold text-black">با نیو کاش بدون پول نقد سفر کن!</h1>
+                            <h4 class="fw-normal mb-3 text-black">اولین کیف پول الکترونیکی برای گردشگران عرب زبان</h4>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos">
+                        <div dir="rtl" class="d-none mq-991-d-flex mq-991-flex-d-c ai-start jc-end h-100 mq-991-p-2">
+                            <h1 class="text-orange fs-5rem">اپلیکیشن</h1>
+                            <img src="assets/base/img/first-section/img-newcash-logo.png" alt="نیوکاش" width="50%">
+                            <h1 class="fs-3rem fw-bold text-black">با نیو کاش بدون پول نقد سفر کن!</h1>
+                            <h4 class="fw-normal mb-3 text-black">اولین کیف پول الکترونیکی برای گردشگران عرب زبان</h4>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide rounded-5 bg-centred-cover cur-pointer first-section-left-videos">
+                        <div dir="rtl" class="d-none mq-991-d-flex mq-991-flex-d-c ai-start jc-end h-100 mq-991-p-2">
+                            <h1 class="text-orange fs-5rem">اپلیکیشن</h1>
+                            <img src="assets/base/img/first-section/img-newcash-logo.png" alt="نیوکاش" width="50%">
+                            <h1 class="fs-3rem fw-bold text-black">با نیو کاش بدون پول نقد سفر کن!</h1>
+                            <h4 class="fw-normal mb-3 text-black">اولین کیف پول الکترونیکی برای گردشگران عرب زبان</h4>
+                        </div>
+                    </a>
                 </div>
                 <!--Pagination-->
                 <div class="swiper-pagination"></div>
@@ -96,7 +115,7 @@
 <!--Second Section-->
 <section id="services-sect" class="bg-gray">
     <main>
-        <ul class="d-grid grid-tc-3 gap-5 p-4">
+        <ul class="d-grid grid-tc-3 gap-5 p-4 mq-991-grid-tc-2 mq-991-gap-3 mq-591-grid-tc-1 mq-591-gap-2">
             <li class="bg-white p-3 rounded text-center">
                 <div>
                     <svg width="113" height="113" viewBox="0 0 113 113" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,24 +179,24 @@
             </li>
         </ul>
         <!--Bottom Green Side-->
-        <div class="bg-green p-4 d-inline-flex w-100 ai-center jc-sb text-white fw-normal second-section-green-side">
+        <div class="bg-green p-4 d-inline-flex w-100 ai-center jc-sb text-white fw-normal second-section-green-side mq-991-d-grid mq-991-grid-tc-2 mq-991-p-2 mq-591-grid-tc-1">
             <!--First Item-->
-            <div class="bl-white p-1 w-25">
+            <div class="bl-white p-1 w-25 mq-991-w-100 mq-591-bl-none mq-591-bb-white">
                 <h2>کیف پول</h2>
                 <h4>کیف پول تومانی و دلاری</h4>
             </div>
             <!--Second Item-->
-            <div class="bl-white p-1 w-25">
+            <div class="bl-white p-1 w-25 mq-991-w-100 mq-591-bl-none mq-591-bb-white">
                 <h2>تحویل کارت</h2>
                 <h4>صدور کارت بانکی ایرانی در مبدا</h4>
             </div>
             <!--Third Item-->
-            <div class="bl-white p-1 w-25">
+            <div class="bl-white p-1 w-25 mq-991-w-100 mq-591-bl-none mq-591-bb-white">
                 <h2>پشتیبان</h2>
                 <h4>پشتیبانی 24 ساعته</h4>
             </div>
             <!--Fourth Item-->
-            <div class="p-1 w-25">
+            <div class="p-1 w-25 mq-991-w-100 mq-991-bl-white mq-591-bl-none">
                 <h2>تراکنش</h2>
                 <h4>پیامک تراکنش ها به زبان عربی</h4>
             </div>
@@ -191,7 +210,7 @@
         <!-- Slider main container -->
         <div class="swiper third-sections-swiper bg-gray rounded mb-3">
             <div class="swiper-wrapper">
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-1.png" alt="مکتب الدباغ (نجف الشرف)" class="ml-1">
                     <!--Left Side-->
@@ -206,7 +225,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-2.png" alt="مکتب النور العیساوی (بابل)" class="ml-1">
                     <!--Left Side-->
@@ -221,7 +240,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-3.png" alt="مکتب منفذ الشلال (ذی قار)" class="ml-1">
                     <!--Left Side-->
@@ -236,7 +255,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-1.png" alt="مکتب الدباغ (نجف الشرف)" class="ml-1">
                     <!--Left Side-->
@@ -251,7 +270,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-2.png" alt="مکتب النور العیساوی (بابل)" class="ml-1">
                     <!--Left Side-->
@@ -266,7 +285,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-3.png" alt="مکتب منفذ الشلال (ذی قار)" class="ml-1">
                     <!--Left Side-->
@@ -281,7 +300,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-1.png" alt="مکتب الدباغ (نجف الشرف)" class="ml-1">
                     <!--Left Side-->
@@ -296,7 +315,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-2.png" alt="مکتب النور العیساوی (بابل)" class="ml-1">
                     <!--Left Side-->
@@ -311,7 +330,7 @@
                         </h5>
                     </div>
                 </a>
-                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center">
+                <a href="#" class="prl-4 ptb-2 swiper-slide d-inline-flex ai-center mq-591-d-flex mq-591-flex-d-c mq-591-gap-1">
                     <!--Right Side-->
                     <img src="assets/base/img/third-section/img-3.png" alt="مکتب منفذ الشلال (ذی قار)" class="ml-1">
                     <!--Left Side-->
@@ -328,13 +347,13 @@
                 </a>
             </div>
             <!--Next And Before Buttons-->
-            <div class="swiper-button-prev p-3 circle bg-orange shadow-orange text-white"></div>
-            <div class="swiper-button-next p-3 circle bg-orange shadow-orange text-white"></div>
+            <div class="swiper-button-prev p-3 circle bg-orange shadow-orange text-white mq-991-d-none"></div>
+            <div class="swiper-button-next p-3 circle bg-orange shadow-orange text-white mq-991-d-none"></div>
         </div>
         <!--Bottom Side-->
-        <div class="d-grid grid-tc-3 w-100 gap-3">
+        <div class="d-grid grid-tc-3 w-100 gap-3 mq-991-grid-tc-2">
             <a href="#"><img class="w-100" src="assets/base/img/third-section/img-eid.png" alt="عیدکم مبارک"></a>
-            <a href="#"><img class="w-100" src="assets/base/img/third-section/img-card.png" alt="بطاقه نیوکاش"></a>
+            <a class="mq-991-d-none" href="#"><img class="w-100" src="assets/base/img/third-section/img-card.png" alt="بطاقه نیوکاش"></a>
             <a href="#"><img class="w-100" src="assets/base/img/third-section/img-phone.png" alt="کیف شحن محفظه نیوکاش"></a>
         </div>
     </main>
@@ -436,19 +455,19 @@
 <section id="about-us-sect" class="p-4 fifth-section bg-centred background-lines">
     <main>
         <!--Top Side-->
-        <div class="d-inline-flex w-100 gap-5 mb-3">
+        <div class="d-inline-flex w-100 gap-5 mb-3 mq-991-d-flex mq-991-flex-d-c">
             <!--Right Side-->
-            <div class="w-50">
+            <div class="w-50 mq-991-w-100">
                 <h1 class="mb-5 fs-3rem">درباره ما</h1>
                 <p>ما در نیوکاش به دنبال این هستیم که تمام نیاز های زایر و گردشگر عرب در نیوکاش تامین شود , تا در نهایت حس خوبی از سیاحت یا درمان در سفر به ایران داشته باشد.</p>
             </div>
             <!--Left Side-->
-            <img src="assets/base/img/fifth-images/img-team.png" alt="تیم نیوکاش" class="w-50">
+            <img src="assets/base/img/fifth-images/img-team.png" alt="تیم نیوکاش" class="w-50 mq-991-w-100">
         </div>
         <!--Bottom Side-->
-        <div class="d-inline-flex w-100">
+        <div class="d-inline-flex w-100 mq-991-d-flex mq-991-w-100 mq-991-flex-d-c mq-991-gap-1">
             <!--Right Side-->
-            <div class="w-50 d-inline-flex ai-center jc-sa">
+            <div class="w-50 mq-991-w-100 d-inline-flex ai-center jc-sa mq-991-jc-sb">
                 <h4>همراه ما باشید!</h4>
                 <!--Socials-->
                 <ul class="d-inline-flex">
@@ -495,7 +514,7 @@
                 </ul>
             </div>
             <!--Left Side-->
-            <div class="d-inline-flex ai-center jc-sa w-50 gap-3">
+            <div class="d-inline-flex ai-center jc-sa w-50 gap-3 mq-991-w-100">
                 <a class="w-50" href="#"><img width="100%" src="assets/base/img/first-section/img-google-play.png" alt="دریافت از طریق گوگل پلی"></a>
                 <a class="w-50" href="#"><img width="100%" src="assets/base/img/first-section/img-apple-store.png" alt="دریافت از طریق اپ استور"></a>
             </div>
@@ -505,7 +524,7 @@
 <!--Footer-->
 <footer class="bg-darker-gray p-4 text-center">
     <!--Top Side-->
-    <img class="mb-3" src="assets/base/img/footer/img-companys.png" alt="شرکت ها">
+    <img class="mb-3 mq-991-w-100" src="assets/base/img/footer/img-companys.png" alt="شرکت ها">
     <!--Bottom Side-->
     <h3 class="text-white">تمام حقوق این وبسایت متعلق به شرکت نیوکاش میباشد.</h3>
 </footer>
@@ -514,6 +533,5 @@
 <script src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
 <script src="assets/base/js/swipers.js"></script>
 <script src="assets/base/js/faq-items.js"></script>
-<script src="assets/base/js/mobile-nav.js"></script>
 </body>
 </html>

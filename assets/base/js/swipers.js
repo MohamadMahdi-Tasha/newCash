@@ -5,6 +5,10 @@ const firstSectionsSwiperVertical = new Swiper(".first-section-swiper", {
     direction: 'vertical',
     effect: 'cube',
     autoplay: {delay: 5000,},
+    breakpoints: {
+      991: {direction: 'vertical',},
+      1: {direction: 'horizontal',}
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -15,7 +19,7 @@ const firstSectionsSwiperVertical = new Swiper(".first-section-swiper", {
 const thirdSectionsSwiper = new Swiper(".third-sections-swiper", {
     slidesPerView: 3,
     breakpoints: {
-        640:{slidesPerView: 3,},
+        991:{slidesPerView: 3,},
         1:{slidesPerView: 2,},
     },
     navigation: {
