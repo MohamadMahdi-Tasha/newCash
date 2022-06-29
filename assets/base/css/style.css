@@ -147,7 +147,7 @@ a {text-decoration: none;}
 .charge-share-btn  {width: 5rem;height: 5rem;}
 .charge-successful-accept-btn {height: 5rem;}
 .border-orange {border: 1px solid var(--orange);}
-.charge {height: 80vh;}
+.charge {height: 90vh;}
 .pos-rel {position: relative;}
 .pos-abs {position: absolute;}
 .left-0 {left: 0;}
@@ -196,6 +196,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .bg-centred {background-size: cover;}
     .first-section-swiper .swiper-slide > div > h1 {font-size: 2rem !important;}
     .first-section-swiper .swiper-slide > div > h4 {font-size: 1.5rem !important;}
+
     .mq-991-bl-white {border-left: 1px solid white;}
     .mq-991-p-1 {padding: 1rem!important;}
     .mq-991-p-2 {padding: 2rem !important;}
