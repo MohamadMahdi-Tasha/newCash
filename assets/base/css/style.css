@@ -90,7 +90,7 @@ a {text-decoration: none;}
 .ptb-2 {padding-top: 2rem;padding-bottom: 2rem;}
 .mt-5 {margin-top: 5rem;}
 .bg-centred-cover {background-size: cover;background-position: center;}
-.rounded-5 {border-radius: 5rem;}
+.rounded-15px {border-radius: 15px;}
 .first-section-swiper .swiper-slide {background-image: url('../img/first-section/img-left-side-videos.png') ;}
 .ml-0 {margin-left: 0 !important;}
 .aspect-ratio {aspect-ratio: 1/1 !important;}
