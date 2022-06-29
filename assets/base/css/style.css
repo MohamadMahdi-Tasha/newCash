@@ -227,5 +227,5 @@ button.bg-green:active {background-color: var(--green-darker);}
 
 @media (max-width: 327px) {
     .mq-327-d-none {display: none;}
-    
+    .first-section-swiper .swiper-slide > div > h1:first-of-type {font-size: 2rem ;}
 }
