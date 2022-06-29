@@ -114,7 +114,7 @@ a {text-decoration: none;}
 .text-center {text-align: center;}
 .fs-2 {font-size: 2rem;}
 .text-white {color: white !important;}
-.bl-white {border-left: 1px solid white;}
+.bl-2-white {border-left: 2px solid white;}
 .text-darker-gray {color: #6D6E71;}
 .ta-right {text-align: right;}
 .ff-yekan {font-family: Yekan, sans-serif;}
@@ -209,9 +209,8 @@ button.bg-green:active {background-color: var(--green-darker);}
     .charge-successful-accept-btn, .charge-share-btn {height: 3rem;}
     .charge-share-btn {width: 3rem;}
     .header {height: 60px !important;}
-
     .mq-991-p-dot-5 {padding: 0.5rem;}
-    .mq-991-bl-white {border-left: 1px solid white;}
+    .mq-991-bl-2-white {border-left: 2px solid white;}
     .mq-991-p-1 {padding: 1rem!important;}
     .mq-991-p-2 {padding: 2rem !important;}
     .mq-991-d-none {display: none !important;}
