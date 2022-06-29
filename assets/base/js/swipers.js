@@ -3,7 +3,6 @@
 const firstSectionsSwiperVertical = new Swiper(".first-section-swiper", {
     pagination: {el: ".swiper-pagination",},
     direction: 'vertical',
-    effect: 'cube',
     autoplay: {delay: 5000,},
     breakpoints: {
       991: {direction: 'vertical',},

@@ -95,7 +95,6 @@ a {text-decoration: none;}
 .ml-0 {margin-left: 0 !important;}
 .aspect-ratio {aspect-ratio: 1/1 !important;}
 .first-section-swiper {height: 70vh;}
-.first-section-swiper > .swiper-pagination {transform: translateX(3vw) translateY(20vh) !important;}
 .first-section-swiper > .swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {background-color: var(--green) !important;}
 .bb-transparent {border-bottom: 1px solid transparent;}
 .pointer-event-none {pointer-events: none;}
