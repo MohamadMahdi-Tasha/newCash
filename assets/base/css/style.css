@@ -82,7 +82,6 @@ a {text-decoration: none;}
 .ml-1 {margin-left: 1rem;}
 .ml-3 {margin-left: 3rem;}
 .shadow-orange {box-shadow: 0 0 30px rgba(var(--orange-rgba ,.4));}
-.shadow-green {box-shadow: 0 0 30px rgba(var(--green-rgba ,.4));}
 .background-lines {background-image: url("../img/first-section/img-bg.png");}
 .bg-centred {background-size: contain;background-position: center;background-repeat: no-repeat;}
 .abs-top {position: absolute;inset: 0;}
