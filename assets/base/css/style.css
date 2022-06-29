@@ -92,6 +92,7 @@ a {text-decoration: none;}
 .bg-centred-cover {background-size: cover;background-position: center;}
 .rounded-15px {border-radius: 15px;}
 .first-section-swiper .swiper-slide {background-image: url('../img/first-section/img-left-side-videos.png') ;}
+.fw-light {font-weight: lighter;}
 .ml-0 {margin-left: 0 !important;}
 .aspect-ratio {aspect-ratio: 1/1 !important;}
 .first-section-swiper {height: 70vh;}
