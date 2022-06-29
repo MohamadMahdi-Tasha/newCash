@@ -172,6 +172,8 @@ a {text-decoration: none;}
 .third-sections-swiper > .swiper-button-next {transform: translateX(-20px);}
 .third-sections-swiper > .swiper-button-prev {transform: translateX(20px);}
 .fs-30 {font-size: 30px;}
+.prlb-1 {padding-right: 1rem;padding-left: 1rem;padding-bottom: 1rem;}
+.text-blue {color: #55C8E8;}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px;
