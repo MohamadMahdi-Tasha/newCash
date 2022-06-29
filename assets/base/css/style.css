@@ -171,6 +171,7 @@ a {text-decoration: none;}
 #namayandeh-ha-sect .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {opacity: 0 !important;}
 .third-sections-swiper > .swiper-button-next {transform: translateX(-20px);}
 .third-sections-swiper > .swiper-button-prev {transform: translateX(20px);}
+.fs-30 {font-size: 30px;}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px;
