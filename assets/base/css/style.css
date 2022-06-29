@@ -192,7 +192,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     section:not(#services-sect), header, .support-btn-holder {padding: 1rem !important;}
     #services-sect > main > ul {padding: 2rem;}
     #services-sect > main > ul {padding: 2rem;}
-    .first-section-swiper {aspect-ratio: 0/0 !important;height: 40rem;}
+    .first-section-swiper {aspect-ratio: 0/0 !important;height: auto;}
     .first-section-swiper > .swiper-pagination {transform: none !important;}
 
     .mq-991-bl-white {border-left: 1px solid white;}
@@ -225,4 +225,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-591-bb-white {border-bottom: 1px solid white;}
 }
 
-@media (max-width: 327px) {  .mq-327-d-none {display: none;}  }
+@media (max-width: 327px) {
+    .mq-327-d-none {display: none;}
+    
+}
