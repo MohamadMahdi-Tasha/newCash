@@ -192,6 +192,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     #services-sect > main > ul {padding: 1rem;}
     .first-section-swiper {aspect-ratio: 0/0 !important;height: auto;}
     .first-section-swiper > .swiper-pagination {transform: none !important;}
+    .bg-centred {background-size: cover;}
 
     .mq-991-bl-white {border-left: 1px solid white;}
     .mq-991-p-1 {padding: 1rem!important;}
