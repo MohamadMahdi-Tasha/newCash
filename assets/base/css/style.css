@@ -225,3 +225,4 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-591-bb-white {border-bottom: 1px solid white;}
 }
 
+@media (max-width: 327px) {  .mq-327-d-none {display: none;}  }
