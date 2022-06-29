@@ -213,6 +213,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-991-w-75 {width: 75%;}
     .mq-991-minh-auto {min-height: auto;}
     .mq-991-gap-0 {gap: 0;}
+    .mq-991-mb-0 {margin-bottom: 0;}
 }
 
 @media (max-width: 591px) {
