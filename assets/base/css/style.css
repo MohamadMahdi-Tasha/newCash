@@ -196,7 +196,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .bg-centred {background-size: cover;}
     .first-section-swiper .swiper-slide > div > h1 {font-size: 2rem !important;}
     .first-section-swiper .swiper-slide > div > h4 {font-size: 1.5rem !important;}
-
+    .charge {height: 70vh;}
     .mq-991-bl-white {border-left: 1px solid white;}
     .mq-991-p-1 {padding: 1rem!important;}
     .mq-991-p-2 {padding: 2rem !important;}
