@@ -1,16 +1,11 @@
 // Configurations Of Swiper Js . Docs At https://swiperjs.com/swiper-api
 // Swiper Of First Section
 const firstSectionsSwiperVertical = new Swiper(".first-section-swiper", {
-    pagination: {el: ".swiper-pagination",},
     direction: 'vertical',
     autoplay: {delay: 5000,},
     breakpoints: {
       991: {direction: 'vertical',},
       1: {direction: 'horizontal',}
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
     },
 });
 
