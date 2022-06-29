@@ -134,7 +134,6 @@ a {text-decoration: none;}
 .mb-1 {margin-bottom: 1rem;}
 .ov-scroll {overflow: scroll;}
 .scroll-hidden::-webkit-scrollbar {display:none;}
-.header > ul > li.active > a{color: var(--orange);border-bottom-color: var(--orange);}
 .w-3 {width: 3%;}
 .border {border: 1px solid black;}
 .mb-2 {margin-bottom: 2rem;}
@@ -161,6 +160,10 @@ a {text-decoration: none;}
 .charge-account-btn {width: 100px;height: 40px;}
 .dv-header-logo-img {width: 100px;height: 40px;}
 .scroll-x-hidden {overflow-x: hidden;}
+.header {height: 90px !important;}
+.header.scrolled > ul > li.active {font-weight: bold;}
+.header.scrolled > ul > li.active > a{color: var(--orange);border-bottom-color: var(--orange);}
+.header.scrolled {box-shadow: 0 0 30px rgba(0,0,0,.2);border-bottom-color: rgba(0, 0, 0, 0.1);}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px;
@@ -188,6 +191,7 @@ button.bg-green:active {background-color: var(--green-darker);}
 .charge-forms-input:focus {border-color: var(--green);box-shadow: 0 0 30px rgba(var(--green-rgba), .2) !important;}
 .hover-bg-orange:hover {background-color: var(--orange);}
 .charge-forms-input:focus-visible:invalid {border-color: red}
+.hover-fw-bold:hover {font-weight: bold;}
 
 /*Media Querys*/
 @media (max-width: 991px) {
@@ -201,6 +205,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .charge {height: 80vh;}
     .charge-successful-accept-btn, .charge-share-btn {height: 3rem;}
     .charge-share-btn {width: 3rem;}
+    .header {height: 60px !important;}
 
     .mq-991-p-dot-5 {padding: 0.5rem;}
     .mq-991-bl-white {border-left: 1px solid white;}
