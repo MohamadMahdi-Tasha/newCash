@@ -22,13 +22,13 @@
 </head>
 <body translate="no" dir="rtl" class="ov-hidden">
 <!--Modal Holder-->
-<div class="d-flex jc-center ai-center minh-100vh w-100 bg-dark p-4 mq-991-p-1">
+<div class="d-flex jc-center ai-center minh-100vh jc-center ai-center w-100 bg-dark p-4 mq-991-p-1">
     <!--Contents Holder-->
     <div class="charge ov-scroll scroll-hidden scroll-x-hidden bg-white rounded shadow w-50 jc-center pos-rel mq-991-w-100">
         <!--Charge-->
-        <div class="p-3 transition pos-abs top-0 w-100" id="charge-modal">
-                <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
-                <h1>شارژ حساب نیوکالا</h1>
+        <div class="p-3 mq-991-p-1 transition pos-abs top-0 w-100" id="charge-modal">
+                <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3 mq-327-w-100">
+                <h1>شارژ حساب نیوکاش</h1>
                 <form id="charge-modal-form" action="#" class="d-flex flex-d-c">
                     <label class="text-darker-gray mb-dot-5" for="phone-number">شماره تماس برای شارژ حساب</label>
                     <input required dir="ltr" class="charge-forms-input mb-2 text-darker-gray p-1 transition ff-yekan" type="tel" id="phone-number" placeholder="+98 000 000 00 00">
@@ -42,10 +42,10 @@
                 </form>
             </div>
         <!--Charge step 2-->
-        <div class="p-3 transition pos-abs lefted top-0 w-100" id="charge-modal-step2">
+        <div class="p-3 mq-991-p-1 transition pos-abs lefted top-0 w-100" id="charge-modal-step2">
             <div class="d-inline-flex ai-start jc-sb w-100">
-                <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3">
-                <button class="aspect-ratio w-7 circle bg-none border-0" id="modal-go-back-btn">
+                <img src="assets/base/img/img-logo-typo.png" alt="لوگو نیوکاش" class="mb-3 mq-327-w-50">
+                <button class="aspect-ratio p-2 d-flex ai-center jc-center circle bg-none border-0 mq-327-w-50 mq-327-p-1 mq-327-aspect-ratio-0 mq-327-jc-end" id="modal-go-back-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                     </svg>
@@ -55,7 +55,7 @@
             <ul class="mb-2">
                 <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
                     شماره کارت
-                    <span>6037 0102 0304 0506</span>
+                    <span class="text-left">6037 0102 0304 0506</span>
                 </li>
                 <li class="w-100 d-inline-flex ai-center jc-sb mb-1">
                     صاحب کارت
@@ -66,13 +66,13 @@
                     <span id="price-show"></span>
                 </li>
             </ul>
-            <div class="d-inline-flex w-100 gap-3">
+            <div class="d-inline-flex w-100 gap-3 mq-991-gap-1">
                 <button class="w-50 bg-green transition border-0 p-1 shadow-green rounded-pill text-white ff-yekan fs-1dot5" id="charge-modal-step2-submit-btn">تاکید</button>
                 <a href="index.html" class="w-50"><button class="w-100 bg-orange transition border-0 p-1 shadow-orange rounded-pill text-white ff-yekan fs-1dot5" id="deni-btn">انصراف</button></a>
             </div>
         </div>
         <!--Charge Successful-->
-        <div class="p-3 transition pos-abs lefted top-0 w-100 bg-centred-cover h-100" id="charge-successful">
+        <div class="p-3 mq-991-p-1 transition pos-abs lefted top-0 w-100 bg-centred-cover minh-100vh" id="charge-successful">
             <div class="d-flex flex-d-c ai-center jc-center w-100">
                 <img src="assets/base/img/modal/img-happy-face.png" alt="موفیقت امیز" class="mb-1">
                 <h1>شارژ حساب نیوکاش</h1>
@@ -100,7 +100,7 @@
                     <span>2514369870</span>
                 </li>
             </ul>
-            <div class="d-inline-flex w-100 gap-3">
+            <div class="d-inline-flex w-100 gap-3 mq-991-gap-1">
                 <a href="index.html" class="w-90"><button class="bg-green charge-successful-accept-btn w-100 transition border-0 shadow-green rounded-pill text-white ff-yekan fs-1dot5">تاکید</button></a>
                 <button class="transition aspect-ratio bg-green border-0 shadow-green circle text-white charge-share-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -110,7 +110,7 @@
             </div>
         </div>
         <!--Charge Not Successful-->
-        <div class="p-3 transition pos-abs lefted top-0 w-100" id="charge-modal-not-successful">
+        <div class="p-3 mq-991-p-1 transition pos-abs lefted top-0 w-100" id="charge-modal-not-successful">
             <div class="d-flex flex-d-c ai-center jc-center w-100 mb-5">
                 <img src="assets/base/img/modal/img-sad-face.png" alt="موفیقت امیز نبود" class="mb-1">
                 <h1>شارژ حساب نیوکاش</h1>

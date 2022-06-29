@@ -155,6 +155,7 @@ a {text-decoration: none;}
 .left-100 {left: 100%;}
 .top-0 {top: 0;}
 .opacity-100 {opacity: 1;}
+.text-left {text-align: left;}
 .lang-header-btn {width: 40px;height: 40px;}
 .charge-account-btn {width: 100px;height: 40px;}
 .scroll-x-hidden {overflow-x: hidden;}
@@ -214,6 +215,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-991-w-75 {width: 75%;}
     .mq-991-minh-auto {min-height: auto;}
     .mq-991-gap-0 {gap: 0;}
+    .mq-991-gap-1 {gap: 1rem;}
     .mq-991-mb-0 {margin-bottom: 0;}
 }
 
@@ -229,5 +231,10 @@ button.bg-green:active {background-color: var(--green-darker);}
 
 @media (max-width: 327px) {
     .mq-327-d-none {display: none;}
+    .mq-327-w-100 {width: 100%;}
+    .mq-327-w-50 {width: 50%;}
+    .mq-327-p-1 {padding: 1rem;}
+    .mq-327-aspect-ratio-0 {aspect-ratio: 0/0 !important;}
+    .mq-327-jc-end {justify-content: end !important;}
     .first-section-swiper .swiper-slide > div > h1:first-of-type {font-size: 2rem ;}
 }
