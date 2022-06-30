@@ -224,6 +224,10 @@ button.bg-green:active {background-color: var(--green-darker);}
     .charge-share-btn {width: 3rem;}
     .header {height: 60px !important;}
     .first-section-main {margin-top: 0 !important;}
+    .first-section-swiper .swiper-slide {
+        min-height: 50vh !important;
+        aspect-ratio: 0/0 !important;
+    }
 
     .mq-991-p-dot-5 {padding: 0.5rem;}
     .mq-991-bl-2-white {border-left: 2px solid white;}
