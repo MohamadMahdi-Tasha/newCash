@@ -247,6 +247,8 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-991-gap-1 {gap: 1rem;}
     .mq-991-mb-0 {margin-bottom: 0;}
     .mq-991-mt-2 {margin-top: 2rem;}
+    .mq-991-fs-20 {font-size: 20px !important;}
+    .mq-991-fs-30 {font-size: 30px !important;}
 }
 
 @media (max-width: 591px) {
