@@ -23,11 +23,11 @@
 </head>
 <body translate="no" dir="rtl" class="ovx-hidden w-100vw">
 <!--Mobile Nav-->
-<nav class="fixed-top shadow w-100 z-index-1002 w-75 p-1 h-100 ov-scroll scroll-hidden inset-auto" data-opened="true" id="mobile-nav">
+<nav class="fixed-top shadow w-100 z-index-1002 w-75 p-1 h-100 ov-scroll scroll-hidden inset-auto transition" data-opened="false" id="mobile-nav">
     <!--Top Side-->
     <div class="w-100 h-50 d-inline-flex jc-sb">
         <img src="assets/base/img/img-logo-typo.png" class="dv-header-logo-img" alt="نیوکاش">
-        <button class="bg-none border-0 h-0 p-1">
+        <button class="bg-none border-0 p-1 h-50px" id="nav-closer">
             <svg width="15" height="26" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.607 13L15 24.2633L13.1497 26L-1.72453e-06 13L13.1497 1.74559e-06L15 1.73667L3.607 13Z" fill="#6D6E71"/>
             </svg>
@@ -56,7 +56,7 @@
     <header class="fixed-top bg-white transition bb-transparent w-100 prl-4 ptb-2 header" id="header">
         <ul class="d-inline-flex w-100 jc-sb ai-center">
             <li class="mq-991-d-none"><a href="index.html"><img src="assets/base/img/img-logo-typo.png" class="dv-header-logo-img" alt="نیوکاش"></a></li>
-            <li class="d-none mq-991-d-block">
+            <li class="d-none mq-991-d-block" id="nav-toggle">
                 <button class="bg-green border-0 text-white transition circle aspect-ratio bg-green d-flex jc-center ai-center nav-toggle">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -70,13 +70,6 @@
             <li class="d-inline-flex ai-center jc-end w-10">
                 <a class="ml-1" href="#"><button class="lang-header-btn d-flex jc-center ai-center bg-none border-green text-green ff-yekan hover-bg-green hover-text-white circle w-100 transition">EN</button></a>
                 <a href="charge.html"><button class="charge-account-btn d-flex jc-center ai-center bg-none border-green text-green ff-yekan hover-bg-green hover-text-white rounded-pill w-100 transition">شارژ حساب</button></a>
-            </li>
-            <li class="d-none">
-                <button id="mobile-nav-toggler" class="bg-none aspect-ratio d-flex jc-center ai-center border-green text-green ff-yekan hover-bg-green hover-text-white w-100 transition p-1 rounded-dot-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
-                </button>
             </li>
         </ul>
     </header>
@@ -577,10 +570,17 @@
 <script>
     // Variables
     const header = document.getElementById('header');
+    const nav = document.getElementById('mobile-nav');
+    const navToggle = document.getElementById('nav-toggle');
+    const navCloser = document.getElementById('nav-closer');
 
     // Adding Event Listener On Whole Window That Listens To Scroll And Checks Of Height Of Scrolled Part Is 0 Which Means Page Is Not Scrolled
     // Then It Removes 'scrolled' Class Name From Header. Otherwise, Adds 'scrolled' Class Name To Header
     window.addEventListener('scroll', () => window.scrollY === 0 ? header.classList.remove('scrolled') : header.classList.add('scrolled'))
+
+    // Adding Event Listener On Nav Toggle And Nav Closer That Ones Mobile Nav And Closes It.
+    navToggle.addEventListener('click', () => nav.setAttribute('data-opened', 'true'));
+    navCloser.addEventListener('click', () => nav.setAttribute('data-opened', 'false'));
 </script>
 </body>
 </html>
