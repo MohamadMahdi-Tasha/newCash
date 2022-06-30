@@ -230,11 +230,13 @@ button.bg-green:active {background-color: var(--green-darker);}
     .charge {height: 80vh;}
     .charge-successful-accept-btn, .charge-share-btn {height: 3rem;}
     .charge-share-btn {width: 3rem;}
-    .header {height: 60px !important;}
+    .header {height: 60px !important;padding-bottom: 4rem !important;}
     .first-section-main {margin-top: 0 !important;}
     .first-section-swiper .swiper-slide {min-height: 50vh !important;aspect-ratio: 0/0 !important;}
     .third-sections-swiper .swiper-button-next {transform: translateX(20px);}
     .faq-page-faq {height: 50vh;overflow: scroll;}
+    .fs-20 {font-size: 15px;}
+    .fs-30 {font-size: 20px;}
 
     .mq-991-w-100vw {width: 100vw;}
     .mq-991-p-dot-5 {padding: 0.5rem;}
@@ -257,6 +259,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-991-d-grid {display: grid;}
     .mq-991-jc-sb {justify-content: space-between;}
     .mq-991-minh-80vh {min-height: 80vh !important;}
+    .mq-991-mt-0 {margin-top: 0;}
     .mq-991-w-75 {width: 75%;}
     .mq-991-gap-0 {gap: 0;}
     .mq-991-gap-1 {gap: 1rem;}
@@ -275,6 +278,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-591-flex-d-c {flex-direction: column;}
     .mq-591-d-flex {display: flex;}
     .mq-591-gap-1 {gap: 1rem !important;}
+    .mq-591-p-1 {padding: 1rem !important;}
     .mq-591-bl-none {border-left: none;}
     .mq-591-bb-white {border-bottom: 1px solid white;}
 }
