@@ -234,10 +234,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .first-section-main {margin-top: 0 !important;}
     .first-section-swiper .swiper-slide {min-height: 50vh !important;aspect-ratio: 0/0 !important;}
     .third-sections-swiper .swiper-button-next {transform: translateX(20px);}
-    .faq-page-faq {
-        height: 50vh;
-        overflow: scroll;
-    }
+    .faq-page-faq {height: 50vh;overflow: scroll;}
 
     .mq-991-w-100vw {width: 100vw;}
     .mq-991-p-dot-5 {padding: 0.5rem;}
@@ -247,7 +244,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-991-d-none {display: none !important;}
     .mq-991-w-100 {width: 100% !important;}
     .mq-991-aspect-ratio-rectangular {aspect-ratio:  0/0 !important;}
-    .mq-991-rounded-pill {border-radius: 2rem;}
+    .mq-991-rounded-pill {border-radius: 50rem;}
     .mq-991-d-block {display: block;}
     .mq-991-d-flex {display: flex;}
     .mq-991-flex-d-c-revers {flex-direction: column-reverse;}
