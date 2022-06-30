@@ -226,7 +226,7 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-991-p-1 {padding: 1rem!important;}
     .mq-991-p-2 {padding: 2rem !important;}
     .mq-991-d-none {display: none !important;}
-    .mq-991-w-100 {width: 100%;}
+    .mq-991-w-100 {width: 100% !important;}
     .mq-991-aspect-ratio-rectangular {aspect-ratio:  0/0 !important;}
     .mq-991-rounded-pill {border-radius: 2rem;}
     .mq-991-d-block {display: block;}
