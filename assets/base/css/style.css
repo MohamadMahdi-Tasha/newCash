@@ -180,6 +180,7 @@ a {text-decoration: none;}
 .text-blue {color: #55C8E8;}
 .fs-20 {font-size: 20px;}
 .ovx-hidden {overflow-x: hidden;}
+.w-100vw {width: 100vw !important;}
 .third-sections-swiper > .swiper-button-next, .third-sections-swiper > .swiper-button-prev {
     top: 45% !important;
     width: 10px;
