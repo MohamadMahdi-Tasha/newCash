@@ -145,6 +145,7 @@ a {text-decoration: none;}
 .w-7 {width: 7%;}
 .w-90 {width: 90%;}
 #charge-successful {background-image: url("../img/modal/img-succsesful-bg.png");}
+.modal {width: 623px;}
 .charge-share-btn  {width: 5rem;height: 5rem;}
 .charge-successful-accept-btn {height: 5rem;}
 .border-orange {border: 1px solid var(--orange);}
