@@ -225,7 +225,11 @@ button.bg-green:active {background-color: var(--green-darker);}
     .header {height: 60px !important;}
     .first-section-main {margin-top: 0 !important;}
     .first-section-swiper .swiper-slide {min-height: 50vh !important;aspect-ratio: 0/0 !important;}
+    .third-sections-swiper .swiper-button-next {
+        transform: translateX(20px);
+    }
 
+    .mq-991-w-100vw {width: 100vw;}
     .mq-991-p-dot-5 {padding: 0.5rem;}
     .mq-991-bl-2-white {border-left: 2px solid white;}
     .mq-991-p-1 {padding: 1rem!important;}
