@@ -278,4 +278,5 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-327-gap-0 {gap: 0 !important;}
     .mq-327-gap-1 {gap: 1rem !important;}
     .mq-327-p-dot-5 {padding: .5rem;}
+    .mq-327-grid-tc-1 {grid-template-columns: repeat(1, 1fr);}
 }
