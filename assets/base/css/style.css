@@ -211,8 +211,7 @@ button.bg-green:active {background-color: var(--green-darker);}
 
 /*Media Querys*/
 @media (max-width: 991px) {
-    section:not(#services-sect), header, .support-btn-holder {padding: 1rem !important;}
-    footer {padding: 1rem 4rem;}
+    section:not(#services-sect), header, .support-btn-holder, footer {padding: 1rem !important;}
     #services-sect > main > ul {padding: 1rem;}
     .first-section-swiper {aspect-ratio: 0/0 !important;height: auto;}
     .first-section-swiper > .swiper-pagination {transform: none !important;}
