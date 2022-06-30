@@ -126,7 +126,8 @@ a {text-decoration: none;}
 .opacity-0 {opacity: 0;}
 .ov-hidden {overflow: hidden !important;}
 .jc-sa {justify-content: space-around;}
-.bb-darker-gray {border-bottom: 1px solid var(--gray-darker);}
+.bb-black {border-bottom: 1px solid black;}
+.bt-black {border-top: 1px solid black;}
 .bg-darker-gray {background-color: var(--gray-darker);}
 .rounded-dot-5 {border-radius: .5rem;}
 .text-right {text-align:right;}
