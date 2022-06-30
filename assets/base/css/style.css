@@ -123,7 +123,6 @@ a {text-decoration: none;}
 .mb-5 {margin-bottom: 5rem;}
 .faq-item[data-opened='true'] > .faq-content{display: block;}
 .faq-item[data-opened='false'] > .faq-content{display: none;}
-.faq-item[data-opened='true'] > .faq-item-toggler > span:last-of-type {transform: rotate(45deg);}
 .opacity-0 {opacity: 0;}
 .ov-hidden {overflow: hidden !important;}
 .jc-sa {justify-content: space-around;}
