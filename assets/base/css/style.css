@@ -160,8 +160,8 @@ a {text-decoration: none;}
 .opacity-100 {opacity: 1;}
 .text-left {text-align: left;}
 .lang-header-btn {width: 40px;height: 40px;}
-.charge-account-btn {width: 100px;height: 40px;}
-.dv-header-logo-img {width: 100px;height: 40px;}
+.charge-account-btn, .dv-header-logo-img , .nav-toggle{width: 100px;height: 40px;}
+.nav-toggle{width: 40px;}
 .scroll-x-hidden {overflow-x: hidden;}
 .header {height: 90px !important;}
 .header.scrolled > ul > li.active {font-weight: bold;}
