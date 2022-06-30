@@ -23,15 +23,22 @@
 </head>
 <body translate="no" dir="rtl" class="ovx-hidden w-100vw">
 <!--Mobile Nav-->
-<nav>
+<nav class="fixed-top shadow w-100 z-index-1002 w-75 p-1 h-100 ov-scroll scroll-hidden inset-auto" data-opened="true" id="mobile-nav">
     <!--Top Side-->
-    <div>
+    <div class="w-100 h-50 d-inline-flex jc-sb">
         <img src="assets/base/img/img-logo-typo.png" class="dv-header-logo-img" alt="نیوکاش">
-        <button>
+        <button class="bg-none border-0 h-0 p-1">
             <svg width="15" height="26" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.607 13L15 24.2633L13.1497 26L-1.72453e-06 13L13.1497 1.74559e-06L15 1.73667L3.607 13Z" fill="#6D6E71"/>
             </svg>
         </button>
+    </div>
+    <!--Bottom Side-->
+    <div class="w-100 h-50 d-flex flex-d-c nav-links mb-5">
+        <a class="w-100" href="#"><button class="w-100 bg-none bb-black transition hover-bb-orange hover-text-orange hover-fw-bold text-right p-1 border-0 fs-20 ff-yekan fw-light">خدمات</button></a>
+        <a class="w-100" href="#"><button class="w-100 bg-none bb-black transition hover-bb-orange hover-text-orange hover-fw-bold text-right p-1 border-0 fs-20 ff-yekan fw-light">نماینده ها</button></a>
+        <a class="w-100 active" href="faq.html"><button class="w-100 bg-none bb-black hover-bb-orange transition hover-text-orange hover-fw-bold text-right p-1 border-0 fs-20 ff-yekan fw-light">سوالات متداول</button></a>
+        <a class="w-100" href="#"><button class="w-100 bg-none transition hover-text-orange hover-fw-bold text-right p-1 border-0 fs-20 ff-yekan fw-light">درباره ما</button></a>
     </div>
 </nav>
 <!--Support Btn Holder-->
