@@ -276,4 +276,5 @@ button.bg-green:active {background-color: var(--green-darker);}
     .mq-327-flex-d-c {flex-direction: column;}
     .mq-327-d-flex {display:flex;}
     .mq-327-gap-0 {gap: 0 !important;}
+    .mq-327-gap-1 {gap: 1rem !important;}
 }
