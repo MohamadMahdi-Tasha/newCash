@@ -18,7 +18,6 @@ faqItemToggler.forEach(item => {
         const itemIcon = item.lastElementChild.firstElementChild;
         setAttrByStatus(isItemOpened, item.parentElement, 'data-opened');
 
-        if (isItemOpened) {itemIcon.innerHTML = minusSvg;}
-        else {itemIcon.innerHTML = plusSvg;}
+        isItemOpened === 'true' ? itemIcon.innerHTML = minusSvg : itemIcon.innerHTML = plusSvg;
     })
 })
